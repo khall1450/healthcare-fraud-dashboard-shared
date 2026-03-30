@@ -2381,32 +2381,6 @@
       "entities": []
     },
     {
-      "id": "media-2026-02-06-mn-reformer-optum-audit",
-      "date": "2026-02-06",
-      "agency": "HHS-OIG",
-      "type": "Audit",
-      "title": "Minnesota Reformer: Optum Audit Finds $1 Billion in Questionable Medicaid Claims",
-      "description": "State-commissioned Optum report reviewed $9.4 billion in claims (Jan 2022-Oct 2025) for 14 high-risk Medicaid services. Found $1 billion in payments that could have been saved with better-written policies ($703 million in early autism intervention alone) and $52.3 million in claims that unambiguously violated stated policy.",
-      "amount": "$1 billion (questionable payments); $52.3 million (policy violations)",
-      "amount_numeric": 1000000000,
-      "officials": [],
-      "link": "https://minnesotareformer.com/2026/02/06/report-poor-policy-language-may-have-cost-minnesota-1-7b-across-14-medicaid-services/",
-      "link_label": "Minnesota Reformer",
-      "social_posts": [],
-      "tags": [
-        "Medicaid",
-        "Behavioral Health",
-        "Program Integrity"
-      ],
-      "state": "MN",
-      "source_type": "news",
-      "auto_fetched": false,
-      "entities": [
-        "Optum"
-      ],
-      "related_agency": "HHS-OIG"
-    },
-    {
       "id": "congress-2025-12-03-gao-aca-subsidy-fraud",
       "date": "2025-12-03",
       "agency": "GAO",
@@ -2894,7 +2868,7 @@
       "type": "Criminal Enforcement",
       "amount": null,
       "description": "Three women were convicted by a federal jury in connection with a pharmacy-related wire fraud conspiracy involving healthcare billing.",
-      "agency": "HHS-OIG",
+      "agency": "DOJ",
       "social_posts": [],
       "tags": [
         "Pharmacy Fraud"
@@ -2915,7 +2889,7 @@
       "type": "Civil Action",
       "amount": "$4.75 million",
       "description": "An Arizona cardiology group agreed to pay $4.75 million to settle allegations that it performed medically unnecessary vascular vein ablation procedures and billed federal healthcare programs.",
-      "agency": "HHS-OIG",
+      "agency": "DOJ",
       "social_posts": [],
       "tags": [
         "Medicare",
@@ -2923,27 +2897,6 @@
       ],
       "date": "2026-03-12",
       "amount_numeric": 4750000,
-      "entities": []
-    },
-    {
-      "link": "https://www.ohioattorneygeneral.gov/Media/News-Releases/March-2026/10-Medicaid-Providers-Facing-Fraud-Charges",
-      "id": "hhs-oig-2026-03-12-10-medicaid-providers",
-      "auto_fetched": false,
-      "officials": [],
-      "state": "OH",
-      "source_type": "official",
-      "title": "10 Medicaid Providers Facing Fraud Charges",
-      "link_label": "Ohio AG Press Release",
-      "type": "Criminal Enforcement",
-      "amount": null,
-      "description": "Ten Medicaid providers were charged with fraud violations in a coordinated enforcement action targeting billing irregularities in the Medicaid program.",
-      "agency": "HHS-OIG",
-      "social_posts": [],
-      "tags": [
-        "Medicaid"
-      ],
-      "date": "2026-03-12",
-      "amount_numeric": 0,
       "entities": []
     },
     {
@@ -2958,7 +2911,7 @@
       "type": "Criminal Enforcement",
       "amount": null,
       "description": "A former CEO and employees of a Greenville healthcare facility were indicted for their roles in a multi-million dollar healthcare fraud scheme involving COVID-19 pandemic benefits.",
-      "agency": "HHS-OIG",
+      "agency": "DOJ",
       "social_posts": [],
       "tags": [
         "Medicare",
@@ -2966,28 +2919,6 @@
       ],
       "date": "2026-03-11",
       "amount_numeric": 0,
-      "entities": []
-    },
-    {
-      "link": "https://www.attorneygeneral.gov/taking-action/ceo-of-montgomery-county-home-care-agency-sentenced-to-incarceration-ordered-to-pay-for-1-7-million-medicaid-fraud-scheme/",
-      "id": "hhs-oig-2026-03-10-montgomery-home-care",
-      "auto_fetched": false,
-      "officials": [],
-      "state": "PA",
-      "source_type": "official",
-      "title": "CEO of Montgomery County Home Care Agency Sentenced to Incarceration for $1.7 Million Medicaid Fraud Scheme",
-      "link_label": "PA AG Press Release",
-      "type": "Criminal Enforcement",
-      "amount": "$1.7 million",
-      "description": "The CEO of a Montgomery County home care agency was sentenced to incarceration and ordered to pay restitution for operating a $1.7 million Medicaid fraud scheme.",
-      "agency": "HHS-OIG",
-      "social_posts": [],
-      "tags": [
-        "Medicaid",
-        "Home Health Fraud"
-      ],
-      "date": "2026-03-10",
-      "amount_numeric": 1700000,
       "entities": []
     },
     {
@@ -3002,7 +2933,7 @@
       "type": "Criminal Enforcement",
       "amount": "$14.9 million",
       "description": "A chiropractor was sentenced to 43 months in federal prison for orchestrating a $14.9 million healthcare fraud and illegal kickback scheme involving durable medical equipment and genetic testing.",
-      "agency": "HHS-OIG",
+      "agency": "DOJ",
       "social_posts": [],
       "tags": [
         "Medicare",
@@ -3026,7 +2957,7 @@
       "type": "Civil Action",
       "amount": "$360,000",
       "description": "A psychiatrist agreed to pay $360,000 to settle civil allegations of submitting false billing claims to federal healthcare programs.",
-      "agency": "HHS-OIG",
+      "agency": "DOJ",
       "social_posts": [],
       "tags": [
         "Medicare",
@@ -3048,7 +2979,7 @@
       "type": "Criminal Enforcement",
       "amount": "$59 million",
       "description": "The owner of a durable medical equipment company was sentenced to federal prison for perpetrating a $59 million Medicare fraud scheme involving fraudulent DME billing.",
-      "agency": "HHS-OIG",
+      "agency": "DOJ",
       "social_posts": [],
       "tags": [
         "Medicare",
@@ -3070,7 +3001,7 @@
       "type": "Civil Action",
       "amount": "$1 million",
       "description": "A subsidiary of AmerisourceBergen agreed to pay $1 million to resolve allegations of paying unlawful inducements (kickbacks) to healthcare providers and practice executives.",
-      "agency": "HHS-OIG",
+      "agency": "DOJ",
       "social_posts": [],
       "tags": [
         "Kickbacks",
@@ -3094,7 +3025,7 @@
       "type": "Criminal Enforcement",
       "amount": null,
       "description": "An Illinois man was sentenced to two years in federal prison for operating a fraudulent durable medical equipment billing scheme targeting Medicare.",
-      "agency": "HHS-OIG",
+      "agency": "DOJ",
       "social_posts": [],
       "tags": [
         "Medicare",
@@ -3116,7 +3047,7 @@
       "type": "Criminal Enforcement",
       "amount": "$8 million",
       "description": "A Kansas physician was sentenced to three years in federal prison for perpetrating an $8 million Medicare fraud scheme.",
-      "agency": "HHS-OIG",
+      "agency": "DOJ",
       "social_posts": [],
       "tags": [
         "Medicare"
@@ -3137,56 +3068,13 @@
       "type": "Criminal Enforcement",
       "amount": "$6.85 million",
       "description": "A man was sentenced to 14 years in federal prison for leading a $6.85 million healthcare fraud operation targeting federal health programs.",
-      "agency": "HHS-OIG",
+      "agency": "DOJ",
       "social_posts": [],
       "tags": [
         "Medicare"
       ],
       "date": "2026-03-06",
       "amount_numeric": 6850000,
-      "entities": []
-    },
-    {
-      "link": "https://arkansasag.gov/news-release/attorney-general-griffin-announces-medicaid-fraud-conviction/",
-      "id": "hhs-oig-2026-03-06-west-memphis-medicaid",
-      "auto_fetched": false,
-      "officials": [],
-      "state": "AR",
-      "source_type": "official",
-      "title": "Attorney General Griffin Secures Conviction of West Memphis Woman for Medicaid Fraud",
-      "link_label": "Arkansas AG Press Release",
-      "type": "Criminal Enforcement",
-      "amount": null,
-      "description": "Arkansas Attorney General Griffin secured a state-level conviction of a West Memphis woman for committing Medicaid program fraud.",
-      "agency": "HHS-OIG",
-      "social_posts": [],
-      "tags": [
-        "Medicaid"
-      ],
-      "date": "2026-03-06",
-      "amount_numeric": 0,
-      "entities": []
-    },
-    {
-      "link": "https://www.mass.gov/news/ags-office-secures-guilty-plea-suspended-sentence-and-restitution-from-rhode-island-resident-who-stole-more-than-220000-from-worcester-rest-home-and-its-elderly-residents",
-      "id": "hhs-oig-2026-03-06-rhode-island-plea",
-      "auto_fetched": false,
-      "officials": [],
-      "state": "RI",
-      "source_type": "official",
-      "title": "Rhode Island Resident Pleads Guilty to Theft from Nursing Facility and Elderly Residents",
-      "link_label": "MA AG Press Release",
-      "type": "Criminal Enforcement",
-      "amount": "$220,000+",
-      "description": "A Rhode Island resident entered a guilty plea and received a suspended sentence with restitution exceeding $220,000 for theft from a nursing facility and its elderly residents.",
-      "agency": "HHS-OIG",
-      "social_posts": [],
-      "tags": [
-        "Nursing Home",
-        "Elder Fraud"
-      ],
-      "date": "2026-03-06",
-      "amount_numeric": 220000,
       "entities": []
     },
     {

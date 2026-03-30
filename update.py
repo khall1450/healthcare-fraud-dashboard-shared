@@ -819,14 +819,24 @@ def main():
                 action_type = 'Investigative Report' if is_media else get_action_type(title, search_all)
                 tags = generate_tags(search_all)
 
-                id_prefix = 'media' if is_media else re.sub(r'\W', '-', feed['agency'].lower())
-                link_label = f"{feed['name']} Report" if is_media else f"{feed['name']} Press Release"
+                # HHS-OIG entries: recategorize by link domain
+                actual_agency = feed['agency']
+                if feed['agency'] == 'HHS-OIG' and link:
+                    # DOJ press releases → categorize as DOJ
+                    if 'justice.gov' in link:
+                        actual_agency = 'DOJ'
+                    # State AG sites → skip entirely (dashboard is federal-only)
+                    elif any(d in link for d in ('attorneygeneral.', 'ag.gov', 'mass.gov', 'state.')):
+                        continue
+
+                id_prefix = 'media' if is_media else re.sub(r'\W', '-', actual_agency.lower())
+                link_label = f"{feed['name']} Report" if is_media else f"{actual_agency} Press Release"
                 desc_out = desc_clean[:600] + '...' if len(desc_clean) > 600 else desc_clean
 
                 entry = {
-                    "id": make_id(id_prefix, date_str, link, feed['agency']),
+                    "id": make_id(id_prefix, date_str, link, actual_agency),
                     "date": date_str,
-                    "agency": feed['agency'],
+                    "agency": actual_agency,
                     "type": action_type,
                     "title": re.sub(r'\s+', ' ', title).strip(),
                     "description": desc_out,
