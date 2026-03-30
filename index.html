@@ -298,41 +298,24 @@ h1,h2,h3,h4,h5,h6 { font-family: 'Bona Nova', Georgia, serif; }
       <button class="view-tab active" id="btnCardView" onclick="setView('cards')">
         <i class="fa-solid fa-scale-balanced me-2"></i>Federal Enforcement Actions
       </button>
+      <button class="view-tab" id="btnOversightView" onclick="setView('oversight')">
+        <i class="fa-solid fa-building-columns me-2"></i>Federal Oversight &amp; Accountability
+      </button>
       <button class="view-tab" id="btnLandscapeView" onclick="setView('landscape')">
-        <i class="fa-solid fa-newspaper me-2"></i>Investigative Reports
+        <i class="fa-solid fa-newspaper me-2"></i>Media Investigations
       </button>
     </div>
     <div class="d-flex flex-wrap align-items-center gap-2 py-2">
       <div class="search-wrapper">
         <i class="fa-solid fa-magnifying-glass search-icon"></i>
-        <input type="text" id="searchInput" class="form-control search-input" placeholder="Search actions..." oninput="currentView === 'landscape' ? filterLandscape() : applyFilters()" />
+        <input type="text" id="searchInput" class="form-control search-input" placeholder="Search actions..." oninput="currentView === 'landscape' ? filterLandscape() : currentView === 'oversight' ? applyOversightFilters() : applyFilters()" />
       </div>
       <div id="enforcementFilters" class="d-flex flex-wrap align-items-center gap-2">
         <select class="form-select filter-select" id="agencyFilter" onchange="applyFilters()">
           <option value="all">All Agencies</option>
-          <option value="DOJ">DOJ</option>
-          <option value="CMS">CMS</option>
-          <option value="HHS">HHS</option>
-          <option value="HHS-OIG">HHS-OIG</option>
-          <option value="FDA">FDA</option>
-          <option value="DEA">DEA</option>
-          <option value="White House">White House</option>
-          <option value="Congress">Congress</option>
-          <option value="GAO">GAO</option>
         </select>
         <select class="form-select filter-select" id="typeFilter" onchange="applyFilters()">
           <option value="all">All Types</option>
-          <option value="Criminal Enforcement">Criminal Enforcement</option>
-          <option value="Civil Action">Civil Action</option>
-          <option value="Administrative Action">Administrative Action</option>
-          <option value="Audit">Audit</option>
-          <option value="Rule/Regulation">Rule / Regulation</option>
-          <option value="Investigation">Investigation</option>
-          <option value="Structural/Organizational">Structural / Organizational</option>
-          <option value="Technology/Innovation">Technology / AI</option>
-          <option value="Investigative Report">Investigative Report</option>
-          <option value="Congressional Hearing">Congressional Hearing</option>
-          <option value="Legislation">Legislation</option>
         </select>
         <input type="date" class="form-control filter-date" id="dateFrom" onchange="applyFilters()" title="From date" />
         <input type="date" class="form-control filter-date" id="dateTo" onchange="applyFilters()" title="To date" />
@@ -340,7 +323,21 @@ h1,h2,h3,h4,h5,h6 { font-family: 'Bona Nova', Georgia, serif; }
           <i class="fa-solid fa-xmark me-1"></i>Clear
         </button>
       </div>
+      <div id="oversightFilters" class="d-flex flex-wrap align-items-center gap-2 d-none">
+        <select class="form-select filter-select" id="oversightAgencyFilter" onchange="applyOversightFilters()">
+          <option value="all">All Agencies</option>
+        </select>
+        <select class="form-select filter-select" id="oversightTypeFilter" onchange="applyOversightFilters()">
+          <option value="all">All Types</option>
+        </select>
+        <input type="date" class="form-control filter-date" id="oversightDateFrom" onchange="applyOversightFilters()" title="From date" />
+        <input type="date" class="form-control filter-date" id="oversightDateTo" onchange="applyOversightFilters()" title="To date" />
+        <button class="btn btn-outline-secondary btn-sm" onclick="clearOversightFilters()">
+          <i class="fa-solid fa-xmark me-1"></i>Clear
+        </button>
+      </div>
       <span class="result-count ms-auto" id="resultCount"></span>
+      <span class="result-count ms-auto d-none" id="oversightResultCount"></span>
     </div>
   </div>
 </div>
@@ -348,7 +345,7 @@ h1,h2,h3,h4,h5,h6 { font-family: 'Bona Nova', Georgia, serif; }
 <!-- MAIN CONTENT: CARDS VIEW -->
 <main class="container-fluid px-4 py-4" id="cardsView">
   <div class="d-flex align-items-center justify-content-between mb-3" id="enforcementBlurb">
-    <p style="font-size:0.8rem;color:var(--text-muted);margin:0;">Federal criminal, civil, and administrative actions against health care fraud</p>
+    <p style="font-size:0.8rem;color:var(--text-muted);margin:0;">Federal criminal and civil actions against health care fraud</p>
   </div>
   <div id="noResults" class="text-center py-5 d-none">
     <i class="fa-solid fa-circle-exclamation fa-3x text-muted mb-3"></i>
@@ -360,6 +357,24 @@ h1,h2,h3,h4,h5,h6 { font-family: 'Bona Nova', Georgia, serif; }
       Load More
     </button>
     <p class="text-muted mt-2" id="loadMoreCount" style="font-size:0.78rem;"></p>
+  </div>
+</main>
+
+<!-- MAIN CONTENT: OVERSIGHT & ACCOUNTABILITY -->
+<main class="container-fluid px-4 py-4 d-none" id="oversightView">
+  <div class="d-flex align-items-center justify-content-between mb-3">
+    <p style="font-size:0.8rem;color:var(--text-muted);margin:0;">Congressional hearings, audits, investigations, and administrative actions to combat health care fraud</p>
+  </div>
+  <div id="oversightNoResults" class="text-center py-5 d-none">
+    <i class="fa-solid fa-circle-exclamation fa-3x text-muted mb-3"></i>
+    <p class="text-muted">No actions match your filters.</p>
+  </div>
+  <div id="oversightGrid" class="row g-3"></div>
+  <div id="oversightLoadMoreWrap" class="text-center py-4 d-none">
+    <button class="btn btn-outline-secondary" id="btnOversightLoadMore" onclick="oversightLoadMore()" style="font-weight:600;font-size:0.85rem;padding:8px 32px;">
+      Load More
+    </button>
+    <p class="text-muted mt-2" id="oversightLoadMoreCount" style="font-size:0.78rem;"></p>
   </div>
 </main>
 
@@ -421,7 +436,10 @@ h1,h2,h3,h4,h5,h6 { font-family: 'Bona Nova', Georgia, serif; }
    DASHBOARD LOGIC
    ============================================================ */
 let allActions = [];
+let enforcementActions = [];
+let oversightActions = [];
 let latestAutoDate = '';
+const ENFORCEMENT_TYPES = new Set(['Criminal Enforcement', 'Civil Action']);
 
 const AGENCY_CLASS = { 'DOJ':'agency-DOJ','HHS':'agency-HHS','CMS':'agency-CMS','HHS-OIG':'agency-HHS-OIG','FDA':'agency-FDA','DEA':'agency-DEA','White House':'agency-White-House','Media':'agency-Media','Congress':'agency-Congress','GAO':'agency-GAO','State Agency':'agency-State-Agencies' };
 const STATE_NAMES  = { AL:'Alabama',AK:'Alaska',AZ:'Arizona',AR:'Arkansas',CA:'California',CO:'Colorado',CT:'Connecticut',DE:'Delaware',FL:'Florida',GA:'Georgia',HI:'Hawaii',ID:'Idaho',IL:'Illinois',IN:'Indiana',IA:'Iowa',KS:'Kansas',KY:'Kentucky',LA:'Louisiana',ME:'Maine',MD:'Maryland',MA:'Massachusetts',MI:'Michigan',MN:'Minnesota',MS:'Mississippi',MO:'Missouri',MT:'Montana',NE:'Nebraska',NV:'Nevada',NH:'New Hampshire',NJ:'New Jersey',NM:'New Mexico',NY:'New York',NC:'North Carolina',ND:'North Dakota',OH:'Ohio',OK:'Oklahoma',OR:'Oregon',PA:'Pennsylvania',RI:'Rhode Island',SC:'South Carolina',SD:'South Dakota',TN:'Tennessee',TX:'Texas',UT:'Utah',VT:'Vermont',VA:'Virginia',WA:'Washington',WV:'West Virginia',WI:'Wisconsin',WY:'Wyoming',DC:'Washington D.C.' };
@@ -494,35 +512,41 @@ function updateStats(actions) {
 }
 
 const PAGE_SIZE = 24;
-let currentFiltered = [];
-let displayedCount = 0;
-let lastRenderedMonth = '';
 const MONTH_NAMES = ['January','February','March','April','May','June','July','August','September','October','November','December'];
 
-function renderCards(actions) {
-  const grid = document.getElementById('cardsGrid');
-  const noResults = document.getElementById('noResults');
+// Shared render state per view
+const viewState = {
+  cards: { filtered: [], displayed: 0, lastMonth: '', gridId: 'cardsGrid', noResultsId: 'noResults', loadMoreWrapId: 'loadMoreWrap', loadMoreCountId: 'loadMoreCount' },
+  oversight: { filtered: [], displayed: 0, lastMonth: '', gridId: 'oversightGrid', noResultsId: 'oversightNoResults', loadMoreWrapId: 'oversightLoadMoreWrap', loadMoreCountId: 'oversightLoadMoreCount' }
+};
+
+function renderCards(actions, view) {
+  view = view || 'cards';
+  const st = viewState[view];
+  const grid = document.getElementById(st.gridId);
+  const noResults = document.getElementById(st.noResultsId);
   grid.innerHTML = '';
-  currentFiltered = actions;
-  displayedCount = 0;
-  lastRenderedMonth = '';
-  if (actions.length === 0) { noResults.classList.remove('d-none'); updateLoadMore(); return; }
+  st.filtered = actions;
+  st.displayed = 0;
+  st.lastMonth = '';
+  if (actions.length === 0) { noResults.classList.remove('d-none'); updateLoadMore(view); return; }
   noResults.classList.add('d-none');
-  appendCards(PAGE_SIZE);
+  appendCards(PAGE_SIZE, view);
 }
 
-function appendCards(count) {
-  const grid = document.getElementById('cardsGrid');
+function appendCards(count, view) {
+  view = view || 'cards';
+  const st = viewState[view];
+  const grid = document.getElementById(st.gridId);
   const tmpl = document.getElementById('cardTemplate');
-  const end = Math.min(displayedCount + count, currentFiltered.length);
-  for (let i = displayedCount; i < end; i++) {
-    const action = currentFiltered[i];
-    // Insert month divider if new month
+  const end = Math.min(st.displayed + count, st.filtered.length);
+  for (let i = st.displayed; i < end; i++) {
+    const action = st.filtered[i];
     if (action.date) {
       const [y, m] = action.date.split('-');
       const monthKey = y + '-' + m;
-      if (monthKey !== lastRenderedMonth) {
-        lastRenderedMonth = monthKey;
+      if (monthKey !== st.lastMonth) {
+        st.lastMonth = monthKey;
         const divider = document.createElement('div');
         divider.className = 'col-12 month-divider';
         divider.innerHTML = '<span class="month-divider-label">' + MONTH_NAMES[parseInt(m,10)-1] + ' ' + y + '</span>';
@@ -605,19 +629,21 @@ function appendCards(count) {
     }
     grid.appendChild(col);
   }
-  displayedCount = end;
-  updateLoadMore();
+  st.displayed = end;
+  updateLoadMore(view);
 }
 
-function loadMore() { appendCards(PAGE_SIZE); }
+function loadMore() { appendCards(PAGE_SIZE, 'cards'); }
+function oversightLoadMore() { appendCards(PAGE_SIZE, 'oversight'); }
 
-function updateLoadMore() {
-  const wrap = document.getElementById('loadMoreWrap');
-  const countEl = document.getElementById('loadMoreCount');
-  if (displayedCount < currentFiltered.length) {
+function updateLoadMore(view) {
+  view = view || 'cards';
+  const st = viewState[view];
+  const wrap = document.getElementById(st.loadMoreWrapId);
+  const countEl = document.getElementById(st.loadMoreCountId);
+  if (st.displayed < st.filtered.length) {
     wrap.classList.remove('d-none');
-    const remaining = currentFiltered.length - displayedCount;
-    countEl.textContent = 'Showing ' + displayedCount + ' of ' + currentFiltered.length + ' actions';
+    countEl.textContent = 'Showing ' + st.displayed + ' of ' + st.filtered.length + ' actions';
   } else {
     wrap.classList.add('d-none');
   }
@@ -627,7 +653,8 @@ let activeTag = null;
 
 function toggleTagFilter(tag) {
   activeTag = (activeTag === tag) ? null : tag;
-  applyFilters();
+  if (currentView === 'oversight') applyOversightFilters();
+  else applyFilters();
 }
 
 function applyFilters() {
@@ -637,7 +664,7 @@ function applyFilters() {
   const dateFrom = document.getElementById('dateFrom').value;
   const dateTo   = document.getElementById('dateTo').value;
 
-  let filtered = allActions.filter(a => {
+  let filtered = enforcementActions.filter(a => {
     if (agency !== 'all' && a.agency !== agency && a.related_agency !== agency) return false;
     if (type   !== 'all' && a.type   !== type)   return false;
     if (dateFrom && a.date < dateFrom) return false;
@@ -657,12 +684,49 @@ function applyFilters() {
   });
 
   filtered.sort((a,b) => (b.date||'').localeCompare(a.date||''));
-  renderCards(filtered);
+  renderCards(filtered, 'cards');
 
   const countEl = document.getElementById('resultCount');
-  let countText = filtered.length === allActions.length
-    ? allActions.length + ' actions'
-    : filtered.length + ' of ' + allActions.length + ' actions';
+  let countText = filtered.length === enforcementActions.length
+    ? enforcementActions.length + ' actions'
+    : filtered.length + ' of ' + enforcementActions.length + ' actions';
+  if (activeTag) countText += ' \u2022 Tag: ' + activeTag;
+  countEl.textContent = countText;
+}
+
+function applyOversightFilters() {
+  const search   = document.getElementById('searchInput').value.trim().toLowerCase();
+  const agency   = document.getElementById('oversightAgencyFilter').value;
+  const type     = document.getElementById('oversightTypeFilter').value;
+  const dateFrom = document.getElementById('oversightDateFrom').value;
+  const dateTo   = document.getElementById('oversightDateTo').value;
+
+  let filtered = oversightActions.filter(a => {
+    if (agency !== 'all' && a.agency !== agency && a.related_agency !== agency) return false;
+    if (type   !== 'all' && a.type   !== type)   return false;
+    if (dateFrom && a.date < dateFrom) return false;
+    if (dateTo   && a.date > dateTo)   return false;
+    if (activeTag) {
+      const allTags = (a.entities||[]).concat(a.tags||[]);
+      if (!allTags.includes(activeTag)) return false;
+    }
+    if (search) {
+      const hay = [a.title, a.description, a.agency, a.type,
+                   (a.tags||[]).join(' '), (a.entities||[]).join(' '),
+                   (a.officials||[]).join(' '),
+                   (a.social_posts||[]).map(p=>p.post_text).join(' ')].join(' ').toLowerCase();
+      if (!hay.includes(search)) return false;
+    }
+    return true;
+  });
+
+  filtered.sort((a,b) => (b.date||'').localeCompare(a.date||''));
+  renderCards(filtered, 'oversight');
+
+  const countEl = document.getElementById('oversightResultCount');
+  let countText = filtered.length === oversightActions.length
+    ? oversightActions.length + ' actions'
+    : filtered.length + ' of ' + oversightActions.length + ' actions';
   if (activeTag) countText += ' \u2022 Tag: ' + activeTag;
   countEl.textContent = countText;
 }
@@ -677,6 +741,29 @@ function clearFilters() {
   applyFilters();
 }
 
+function clearOversightFilters() {
+  document.getElementById('searchInput').value = '';
+  document.getElementById('oversightAgencyFilter').value = 'all';
+  document.getElementById('oversightTypeFilter').value   = 'all';
+  document.getElementById('oversightDateFrom').value = '';
+  document.getElementById('oversightDateTo').value   = '';
+  activeTag = null;
+  applyOversightFilters();
+}
+
+
+function populateFilterOptions(selectId, dataArray, field) {
+  const sel = document.getElementById(selectId);
+  // Remove all but the first "All" option
+  while (sel.options.length > 1) sel.remove(1);
+  const values = [...new Set(dataArray.map(a => a[field]).filter(Boolean))].sort();
+  values.forEach(v => {
+    const opt = document.createElement('option');
+    opt.value = v;
+    opt.textContent = v;
+    sel.appendChild(opt);
+  });
+}
 
 async function loadData() {
   let data = null;
@@ -692,7 +779,13 @@ async function loadData() {
   }
   if (data && data.actions) {
     allActions = data.actions;
+    enforcementActions = allActions.filter(a => ENFORCEMENT_TYPES.has(a.type));
+    oversightActions = allActions.filter(a => !ENFORCEMENT_TYPES.has(a.type));
     latestAutoDate = allActions.filter(a => a.auto_fetched && a.date).reduce((max, a) => a.date > max ? a.date : max, '');
+    populateFilterOptions('agencyFilter', enforcementActions, 'agency');
+    populateFilterOptions('typeFilter', enforcementActions, 'type');
+    populateFilterOptions('oversightAgencyFilter', oversightActions, 'agency');
+    populateFilterOptions('oversightTypeFilter', oversightActions, 'type');
     updateLastUpdated(data.metadata && data.metadata.last_updated);
     applyFilters();
   } else {
@@ -806,15 +899,21 @@ let currentView = 'cards';
 function setView(view) {
   currentView = view;
   document.getElementById('cardsView').classList.toggle('d-none', view !== 'cards');
+  document.getElementById('oversightView').classList.toggle('d-none', view !== 'oversight');
   document.getElementById('landscapeView').classList.toggle('d-none', view !== 'landscape');
   document.getElementById('btnCardView').classList.toggle('active', view === 'cards');
+  document.getElementById('btnOversightView').classList.toggle('active', view === 'oversight');
   document.getElementById('btnLandscapeView').classList.toggle('active', view === 'landscape');
   document.getElementById('enforcementFilters').classList.toggle('d-none', view !== 'cards');
+  document.getElementById('oversightFilters').classList.toggle('d-none', view !== 'oversight');
   document.getElementById('resultCount').classList.toggle('d-none', view !== 'cards');
+  document.getElementById('oversightResultCount').classList.toggle('d-none', view !== 'oversight');
   const searchInput = document.getElementById('searchInput');
-  searchInput.placeholder = view === 'landscape' ? 'Search stories...' : 'Search actions...';
+  searchInput.placeholder = view === 'landscape' ? 'Search stories...' : view === 'oversight' ? 'Search oversight actions...' : 'Search enforcement actions...';
   searchInput.value = '';
+  activeTag = null;
   if (view === 'landscape') { loadLandscape(); filterLandscape(); }
+  else if (view === 'oversight') { applyOversightFilters(); }
   else { applyFilters(); }
 }
 
