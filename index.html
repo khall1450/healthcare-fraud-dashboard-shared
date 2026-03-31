@@ -832,7 +832,7 @@ async function loadData() {
     allActions = data.actions;
     enforcementActions = allActions.filter(a => ENFORCEMENT_TYPES.has(a.type));
     oversightActions = allActions.filter(a => !ENFORCEMENT_TYPES.has(a.type));
-    latestAutoDate = allActions.filter(a => a.auto_fetched && a.date).reduce((max, a) => a.date > max ? a.date : max, '');
+    latestAutoDate = (data.metadata && data.metadata.last_updated) ? data.metadata.last_updated.slice(0, 10) : '';
     populateFilterOptions('agencyFilter', enforcementActions, 'agency');
     populateFilterOptions('typeFilter', enforcementActions, 'type');
     populateStateFilter('stateFilter', enforcementActions);
