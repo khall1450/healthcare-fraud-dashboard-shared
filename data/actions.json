@@ -491,30 +491,6 @@
       "entities": []
     },
     {
-      "id": "hhs-2026-02-04-ai-fraud-detection",
-      "date": "2026-02-04",
-      "agency": "HHS",
-      "type": "Technology/Innovation",
-      "title": "HHS Secretary Kennedy: AI Being Used to Detect Medicare Fraud, Potential Billions in Savings",
-      "description": "HHS Secretary Robert F. Kennedy Jr. claimed the administration is using AI to detect fraud in Medicare, with potential savings of billions of dollars this year.",
-      "amount": "Billions in potential savings",
-      "amount_numeric": 0,
-      "officials": [
-        "Robert F. Kennedy Jr."
-      ],
-      "link": "https://www.cms.gov/newsroom/press-releases/trump-administration-prioritizes-affordability-announcing-major-crackdown-health-care-fraud",
-      "link_label": "CMS Press Release",
-      "social_posts": [],
-      "tags": [
-        "AI",
-        "Medicare"
-      ],
-      "state": null,
-      "source_type": "official",
-      "auto_fetched": false,
-      "entities": []
-    },
-    {
       "id": "doj-2025-06-gary-cox-dmerx-conviction",
       "date": "2025-06-05",
       "agency": "DOJ",
