@@ -448,7 +448,6 @@ h1,h2,h3,h4,h5,h6 { font-family: 'Bona Nova', Georgia, serif; }
 let allActions = [];
 let enforcementActions = [];
 let oversightActions = [];
-let latestAutoDate = '';
 const ENFORCEMENT_TYPES = new Set(['Criminal Enforcement', 'Civil Action']);
 
 const AGENCY_CLASS = { 'DOJ':'agency-DOJ','HHS':'agency-HHS','CMS':'agency-CMS','HHS-OIG':'agency-HHS-OIG','FDA':'agency-FDA','DEA':'agency-DEA','White House':'agency-White-House','Media':'agency-Media','Congress':'agency-Congress','GAO':'agency-GAO','State Agency':'agency-State-Agencies','Treasury':'agency-Treasury' };
@@ -587,11 +586,6 @@ function appendCards(count, view) {
     const typeBadge = col.querySelector('.type-badge');
     typeBadge.textContent = action.type || 'Other';
     typeBadge.classList.add(typeClass(action.type));
-    if (action.auto_fetched && action.date === latestAutoDate) {
-      const nb = document.createElement('span');
-      nb.className = 'new-badge'; nb.textContent = 'NEW';
-      col.querySelector('.card-top-row').appendChild(nb);
-    }
     col.querySelector('.card-date').textContent = formatDate(action.date);
     col.querySelector('.card-title').textContent = action.title || 'Untitled';
     const descEl = col.querySelector('.card-desc');
@@ -832,7 +826,6 @@ async function loadData() {
     allActions = data.actions;
     enforcementActions = allActions.filter(a => ENFORCEMENT_TYPES.has(a.type));
     oversightActions = allActions.filter(a => !ENFORCEMENT_TYPES.has(a.type));
-    latestAutoDate = (data.metadata && data.metadata.last_updated) ? data.metadata.last_updated.slice(0, 10) : '';
     populateFilterOptions('agencyFilter', enforcementActions, 'agency');
     populateFilterOptions('typeFilter', enforcementActions, 'type');
     populateStateFilter('stateFilter', enforcementActions);
