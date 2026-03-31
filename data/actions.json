@@ -5,6 +5,29 @@
   },
   "actions": [
     {
+      "id": "doj-2026-03-05-nc-medicaid-substance-abuse",
+      "date": "2026-03-05",
+      "agency": "DOJ",
+      "type": "Criminal Enforcement",
+      "title": "Over $12 Million Medicaid Fraud Scheme Leads to 14 Years of Prison for Substance Abuse Facility, Owner, Compliance Officer, and Office Manager",
+      "description": "A federal judge sentenced participants in a $12.7 million Medicaid fraud scheme to more than 14 years in federal prison. The scheme paid over $1 million in kickbacks to patients with substance abuse disorders and operated through a fake substance abuse treatment facility in New Bern, North Carolina. The case also resulted in the permanent closure of the facility, a $15 million fine, and seizure of more than $6 million in criminal proceeds including cash, cars, and homes.",
+      "amount": "$12.7 million",
+      "amount_numeric": 12700000.0,
+      "officials": [],
+      "link": "https://www.justice.gov/usao-ednc/pr/over-12-million-medicaid-fraud-scheme-leads-14-years-prison-substance-abuse-facility",
+      "link_label": "DOJ Press Release",
+      "social_posts": [],
+      "tags": [
+        "Medicaid",
+        "Kickbacks",
+        "Substance Abuse"
+      ],
+      "entities": [],
+      "state": "NC",
+      "source_type": "official",
+      "auto_fetched": false
+    },
+    {
       "id": "treasury-2026-03-30-fincen-advisory",
       "date": "2026-03-30",
       "agency": "Treasury",

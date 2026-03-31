@@ -249,6 +249,11 @@ def main():
     else:
         data = {"metadata": {"last_updated": "", "version": "1.0"}, "stories": []}
 
+    # Date cutoff: only add entries on or after the last run date
+    last_run_raw = data["metadata"].get("last_updated", "")
+    last_run_date = last_run_raw[:10] if last_run_raw else "2025-01-01"
+    log(f"Last run date: {last_run_date} — skipping entries before this date")
+
     # Build dedup sets from existing entries
     existing_links = set()
     existing_titles = set()
@@ -314,8 +319,10 @@ def main():
                 if not date_str:
                     date_str = parse_date(entry.get('published', ''))
 
-                # Enforce Jan 2025 cutoff
+                # Enforce Jan 2025 cutoff and last-run date cutoff
                 if date_str < '2025-01-01':
+                    continue
+                if date_str < last_run_date:
                     continue
 
                 # Get description from RSS summary
