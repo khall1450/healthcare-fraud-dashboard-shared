@@ -2597,8 +2597,7 @@
       "link_label": "House Judiciary Committee",
       "social_posts": [],
       "tags": [
-        "ACA",
-        "Medicare Advantage"
+        "ACA"
       ],
       "state": null,
       "source_type": "official",
@@ -2756,7 +2755,7 @@
       "id": "hhs-oig-2026-03-09-dme-owner-59m",
       "auto_fetched": false,
       "officials": [],
-      "state": null,
+      "state": "TX",
       "source_type": "official",
       "title": "Owner of Durable Medical Equipment Company Sentenced for $59 Million Medicare Fraud",
       "link_label": "DOJ Press Release",
@@ -2872,7 +2871,7 @@
       "link_label": "DOJ Press Release",
       "type": "Criminal Enforcement",
       "amount": "$30 million (claims); $17 million (paid)",
-      "description": "Mark Loftis, 38, of Cushing, OK, owner of Back Pain Home Supplies LLC (EZ Medical Supply), indicted for paying illegal kickbacks to marketers and telemedicine companies for fraudulent DME orders. Submitted approximately $30 million in false claims; federal programs paid approximately $17 million. Also misused $300K+ in COVID-19 Provider Relief Funds for personal expenses.",
+      "description": "Mark Loftis, 38, of Cushing, OK, owner of Back Pain Home Supplies LLC (EZ Medical Supply), indicted for paying illegal kickbacks to marketers and telemedicine companies for fraudulent DME orders. Submitted approximately $30 million in false claims; federal programs paid approximately $8 million. Also misused more than $133,000 in COVID-19 Provider Relief Funds for personal expenses.",
       "agency": "DOJ",
       "social_posts": [],
       "tags": [
@@ -2906,8 +2905,7 @@
       "tags": [
         "Medicaid",
         "AI",
-        "Housing Fraud",
-        "Unnecessary Procedures"
+        "Housing Fraud"
       ],
       "date": "2026-02-10",
       "amount_numeric": 3500000,
@@ -2962,7 +2960,7 @@
         "Unnecessary Procedures"
       ],
       "date": "2026-03-05",
-      "amount_numeric": 40000000.0,
+      "amount_numeric": 400000000,
       "entities": [],
       "related_agency": "DOJ"
     },
@@ -4343,8 +4341,7 @@
       "tags": [
         "TRICARE",
         "Kickbacks",
-        "Pharmacy Fraud",
-        "False Claims Act"
+        "Pharmacy Fraud"
       ],
       "entities": [
         "Health Services Plus",
