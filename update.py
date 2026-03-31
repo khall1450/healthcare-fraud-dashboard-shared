@@ -63,7 +63,7 @@ FEEDS = [
     {"name": "S-HELP",      "agency": "Congress",      "url": None,                                                                       "enabled": True,  "source_type": "official", "scrape": "help_committee"},
     {"name": "H-W&M",       "agency": "Congress",      "url": None,                                                                       "enabled": True,  "source_type": "official", "scrape": "ways_means"},
     {"name": "HHS-OIG-RPT", "agency": "HHS-OIG",      "url": None,                                                                       "enabled": True,  "source_type": "official", "scrape": "oig_reports"},
-    {"name": "FDA",         "agency": "FDA",           "url": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/press-releases/rss.xml", "enabled": True, "source_type": "official"},
+    {"name": "FDA",         "agency": "FDA",           "url": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/press-releases/rss.xml", "enabled": False, "source_type": "official"},
     {"name": "DEA",         "agency": "DEA",           "url": "https://www.dea.gov/press-releases/rss",                                   "enabled": True,  "source_type": "official", "browser_fallback": True},
     # --- Media feeds disabled — Fraud Landscape is manually curated (see data/media.json) ---
     # --- State AG feeds disabled — state actions removed from dashboard ---
