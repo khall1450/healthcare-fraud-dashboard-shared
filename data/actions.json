@@ -380,32 +380,6 @@
       "entities": []
     },
     {
-      "id": "whitehouse-2026-02-04-ca-task-force",
-      "date": "2026-02-04",
-      "agency": "White House",
-      "type": "Structural/Organizational",
-      "title": "Trump Plans New Anti-Fraud Task Force for California, Led by JD Vance",
-      "description": "President Trump announced plans to create a new anti-fraud task force focused on California and other states, to be led by Vice President JD Vance.",
-      "amount": "",
-      "amount_numeric": 0.0,
-      "officials": [
-        "JD Vance",
-        "President Trump"
-      ],
-      "link": "https://www.cbsnews.com/news/trump-anti-fraud-task-force-targeting-california-jd-vance/",
-      "link_label": "CBS News Report",
-      "social_posts": [],
-      "tags": [
-        "Medicaid",
-        "Medicare",
-        "Program Integrity"
-      ],
-      "state": "CA",
-      "source_type": "news",
-      "auto_fetched": false,
-      "entities": []
-    },
-    {
       "id": "oig-2026-01-22-maine-autism-audit",
       "date": "2026-01-22",
       "agency": "HHS-OIG",
@@ -2573,27 +2547,6 @@
       "entities": []
     },
     {
-      "id": "congress-2025-12-04-senate-finance-gao-aca-response",
-      "date": "2025-12-04",
-      "agency": "Congress",
-      "type": "Administrative Action",
-      "title": "Senate Finance Chair Crapo: Billions Wasted Due to Health Care Fraud in Obamacare Plans",
-      "description": "Senate Finance Committee Chairman Mike Crapo responded to the GAO report on ACA marketplace fraud, highlighting failures allowing applicants using fake identities, stolen SSNs, and incorrect income estimates to receive subsidies at taxpayers' expense. Called the enhanced subsidies a driver of fraud vulnerability and signaled intent for legislative action.",
-      "amount": "",
-      "amount_numeric": 0.0,
-      "officials": [],
-      "link": "https://www.finance.senate.gov/chairmans-news/new-report-billions-of-dollars-wasted-consumers-harmed-due-to-health-care-fraud-in-obamacare-plans",
-      "link_label": "Senate Finance Committee",
-      "social_posts": [],
-      "tags": [
-        "ACA"
-      ],
-      "state": null,
-      "source_type": "official",
-      "auto_fetched": false,
-      "entities": []
-    },
-    {
       "id": "congress-2025-12-10-house-judiciary-aca-fraud-hearing",
       "date": "2025-12-10",
       "agency": "Congress",
@@ -3758,30 +3711,6 @@
       "auto_fetched": false
     },
     {
-      "id": "congress-2026-01-09-ec-wm-la-hospice-fraud-inquiry",
-      "date": "2026-01-09",
-      "agency": "Congress",
-      "type": "Investigation",
-      "title": "Six Committee Chairmen Request HHS-OIG Briefing on LA County Hospice and Home Health Fraud",
-      "description": "Six chairmen from House E&C and Ways & Means sent a letter to HHS-OIG requesting a briefing on hospice fraud in LA County. Auditors found 112 hospices at the same address, $1.2 billion in improper home health payments, and $198 million in suspected hospice fraud. Armenian organized crime networks identified as key players.",
-      "amount": "",
-      "amount_numeric": 0.0,
-      "officials": [],
-      "link": "https://energycommerce.house.gov/posts/chairmen-guthrie-joyce-griffith-smith-schweikert-and-buchanan-ask-hhs-oig-about-ongoing-hha-and-hospice-fraud-in-los-angeles-county-1",
-      "link_label": "House E&C",
-      "social_posts": [],
-      "tags": [
-        "Home Health Fraud",
-        "Hospice Fraud",
-        "Medicare",
-        "Organized Crime"
-      ],
-      "entities": [],
-      "state": "CA",
-      "source_type": "official",
-      "auto_fetched": false
-    },
-    {
       "id": "congress-2026-02-10-judiciary-subpoenas-aca-insurers",
       "date": "2026-02-10",
       "agency": "Congress",
@@ -3878,33 +3807,6 @@
       "link_label": "GAO Report",
       "social_posts": [],
       "tags": [
-        "Improper Payments",
-        "Medicaid",
-        "Program Integrity"
-      ],
-      "entities": [],
-      "state": null,
-      "source_type": "official",
-      "auto_fetched": false
-    },
-    {
-      "id": "congress-2025-07-21-crapo-applauds-cms-duplicate-enrollment",
-      "date": "2025-07-21",
-      "agency": "Congress",
-      "type": "Administrative Action",
-      "title": "Senate Finance Chair Crapo Applauds CMS Finding 2.8M Duplicate Medicaid/ACA Enrollments",
-      "description": "Chairman Crapo praised CMS after the agency found 2.8 million Americans enrolled in both Medicaid and ACA Exchange plans simultaneously. Eliminating duplicate enrollment projected to save $14 billion annually.",
-      "amount": "",
-      "amount_numeric": 0.0,
-      "officials": [
-        "Chairman Mike Crapo",
-        "Dr. Mehmet Oz"
-      ],
-      "link": "https://www.finance.senate.gov/chairmans-news/crapo-applauds-cms-efforts-to-root-out-fraud-saving-taxpayers-billions",
-      "link_label": "Senate Finance Committee",
-      "social_posts": [],
-      "tags": [
-        "ACA",
         "Improper Payments",
         "Medicaid",
         "Program Integrity"
