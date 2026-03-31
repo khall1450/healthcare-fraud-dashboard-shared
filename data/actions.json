@@ -4095,28 +4095,6 @@
       "auto_fetched": false
     },
     {
-      "id": "congress-2026-03-wm-oversight-healthcare-fraud-hearing",
-      "date": "2026-03-12",
-      "agency": "Congress",
-      "type": "Congressional Hearing",
-      "title": "House Ways & Means Oversight Subcommittee Hearing: Improving Efforts to Combat Health Care Fraud",
-      "description": "Hearing on current policies and programs designed to prevent and punish Medicare fraud, as well as innovative fraud prevention practices. HHS-OIG testified on improving efforts to combat health care fraud.",
-      "amount": null,
-      "amount_numeric": 0,
-      "officials": [],
-      "link": "https://waysandmeans.house.gov/event/oversight-subcommittee-hearing-on-improving-efforts-to-combat-health-care-fraud/",
-      "link_label": "House Ways & Means",
-      "social_posts": [],
-      "tags": [
-        "Medicare",
-        "Program Integrity"
-      ],
-      "entities": [],
-      "state": null,
-      "source_type": "official",
-      "auto_fetched": false
-    },
-    {
       "id": "congress-2026-01-09-ec-wm-la-hospice-fraud-inquiry",
       "date": "2026-01-09",
       "agency": "Congress",
