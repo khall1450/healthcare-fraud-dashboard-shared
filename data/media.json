@@ -36,7 +36,7 @@
       "agency": "Media",
       "type": "Investigative Report",
       "title": "Reason: Medicaid Fraud Isn't Just a Minnesota Problem — Five Other Major Schemes Exposed Nationwide",
-      "description": "Reason documents five major Medicaid fraud schemes beyond Minnesota's well-publicized cases: (1) a $92.8M black-market HIV drug ring in Maryland resulting in 38-year prison sentences; (2) Dr. Sanjeev Kumar performing 15,000+ unnecessary hysteroscopies in Memphis, billing $41M and reusing single-use instruments; (3) rheumatologist Jorge Zamora-Quezada falsely diagnosing arthritis, ordered to pay $28M in restitution; (4) a $12M urine drug testing scheme using patient recruiters to target Medicaid beneficiaries; and (5) former NFL player Keith Gray billing $328M to Medicare through a genetic testing kickback scheme, pocketing $54M personally.",
+      "description": "Reason documents five major Medicaid fraud schemes beyond Minnesota's well-publicized cases: (1) a $92.8M black-market HIV drug ring in Maryland resulting in 38-year prison sentences; (2) Dr. Sanjeev Kumar performing 15,000+ unnecessary hysteroscopies in Memphis, billing $41M and reusing single-use instruments; (3) rheumatologist Jorge Zamora-Quezada falsely diagnosing arthritis, ordered to pay $28M in restitution; (4) a $12M urine drug testing scheme using patient recruiters to target Medicaid beneficiaries; and (5) former NFL player Keith Gray billing $328M to Medicare through a genetic testing kickback scheme, with Medicare paying approximately $54M on fraudulent claims.",
       "amount": "$500M+ (combined schemes)",
       "amount_numeric": 500000000,
       "officials": [],
@@ -440,7 +440,8 @@
       "tags": [
         "Medicaid",
         "Hospice Fraud",
-        "Organized Crime"
+        "Organized Crime",
+        "Medicare"
       ],
       "entities": [],
       "state": "CA",
@@ -458,14 +459,15 @@
       "amount": null,
       "amount_numeric": 0,
       "officials": [],
-      "link": "https://x.com/nickshirley_/status/minnesota-daycare-fraud",
-      "link_label": "Nick Shirley Investigation",
+      "link": "https://www.npr.org/2025/12/31/nx-s1-5662600/nick-shirley-minnesota-daycare-fraud",
+      "link_label": "NPR Report",
       "social_posts": [],
       "tags": [
         "Medicaid",
         "Organized Crime",
         "Improper Payments",
-        "Adult Day Care"
+        "Adult Day Care",
+        "Medicare"
       ],
       "entities": [],
       "state": "MN",

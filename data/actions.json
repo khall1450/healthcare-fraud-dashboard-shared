@@ -3058,7 +3058,7 @@
         "Medicaid"
       ],
       "entities": [],
-      "state": "TX",
+      "state": null,
       "source_type": "official",
       "auto_fetched": true
     },
@@ -3076,9 +3076,7 @@
       "link_label": "DOJ Press Release",
       "social_posts": [],
       "tags": [
-        "Medicare",
-        "Pharmacy Fraud",
-        "Money Laundering"
+        "Pharmacy Fraud"
       ],
       "entities": [
         "Safe Chain Solutions"
@@ -3172,38 +3170,10 @@
       "tags": [
         "Medicare",
         "Medicaid",
-        "Pharmacy Fraud",
-        "Opioids"
+        "Pharmacy Fraud"
       ],
       "entities": [],
       "state": "MI",
-      "source_type": "official",
-      "auto_fetched": false
-    },
-    {
-      "id": "doj-2025-01-mckinsey-650m-opioid-resolution",
-      "date": "2025-01-01",
-      "agency": "DOJ",
-      "type": "Criminal Enforcement",
-      "title": "McKinsey & Company Pays $650M to Resolve Criminal and Civil Opioid Fraud Charges",
-      "description": "McKinsey entered a deferred prosecution agreement for conspiring with Purdue Pharma to aid in misbranding OxyContin. The $650M resolution includes $323M for FCA violations. First time a consulting firm was held criminally accountable for health care fraud.",
-      "amount": "$650M",
-      "amount_numeric": 650000000,
-      "officials": [],
-      "link": "https://www.justice.gov/archives/opa/pr/justice-department-announces-resolution-criminal-and-civil-investigations-mckinsey-companys",
-      "link_label": "DOJ Press Release",
-      "social_posts": [],
-      "tags": [
-        "Opioids",
-        "Pharmacy Fraud",
-        "Kickbacks",
-        "False Claims Act"
-      ],
-      "entities": [
-        "McKinsey & Company",
-        "Purdue Pharma"
-      ],
-      "state": null,
       "source_type": "official",
       "auto_fetched": false
     },
@@ -3288,8 +3258,7 @@
       "link_label": "News Report",
       "social_posts": [],
       "tags": [
-        "Research Fraud",
-        "Pharmacy Fraud"
+        "Research Fraud"
       ],
       "entities": [
         "A&R Research Group"
@@ -3479,7 +3448,7 @@
       "agency": "DOJ",
       "type": "Criminal Enforcement",
       "title": "D.C. Physician Sentenced to 18 Years for Operating Nationwide Opioid Pill Mill",
-      "description": "Dr. Ndubuski Joseph Okafor sentenced to 18 years for operating a pill mill from his D.C. clinic, prescribing opioids to individuals using false identities across at least 45 states, resulting in hundreds of thousands of opioid units prescribed.",
+      "description": "Dr. Ndubuisi Joseph Okafor sentenced to 18 years for operating a pill mill from his D.C. clinic, prescribing opioids to individuals using false identities across at least 45 states, resulting in hundreds of thousands of opioid units prescribed.",
       "amount": null,
       "amount_numeric": 0,
       "officials": [],
@@ -3634,8 +3603,7 @@
         "Medicaid",
         "Identity Theft",
         "Organized Crime",
-        "Overbilling",
-        "False Claims Act"
+        "Overbilling"
       ],
       "entities": [],
       "state": "MN",
@@ -4138,8 +4106,7 @@
       "social_posts": [],
       "tags": [
         "Home Health Fraud",
-        "Medicaid",
-        "Unnecessary Procedures"
+        "Medicaid"
       ],
       "entities": [
         "Inspiring Angels LLC"
@@ -4271,7 +4238,7 @@
         "Lab Fraud"
       ],
       "entities": [],
-      "state": "CA",
+      "state": "OR",
       "source_type": "official",
       "auto_fetched": true
     },
@@ -4514,7 +4481,7 @@
         "False Claims Act"
       ],
       "entities": [],
-      "state": "GA",
+      "state": "MI",
       "source_type": "official",
       "auto_fetched": true
     },
@@ -4537,7 +4504,7 @@
         "Genetic Testing"
       ],
       "entities": [],
-      "state": "FL",
+      "state": "TX",
       "source_type": "official",
       "auto_fetched": true
     },
