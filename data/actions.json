@@ -1546,7 +1546,7 @@
       "agency": "CMS",
       "type": "Investigation",
       "title": "Dr. Oz Launches Medicaid Fraud Investigation of New York; Sends 50-Question Letter to Gov. Hochul",
-      "description": "CMS Administrator Dr. Mehmet Oz sent a letter to New York Gov. Kathy Hochul posing 50 detailed questions about fraud, waste, and abuse in New York's $124 billion Medicaid program—the largest state Medicaid program in the country. Oz cited serious concerns about New York's oversight of personal care, home health, adult day care programming, non-emergency medical transportation, and behavioral health services, noting per-capita spending and workforce utilization patterns significantly exceeding national norms. Hochul was given 30 days to respond with a corrective action plan or face potential deferral of federal Medicaid payments. CMS cited the $68 million Brooklyn adult day care fraud as an example.",
+      "description": "CMS Administrator Dr. Mehmet Oz sent a letter to New York Gov. Kathy Hochul posing 50 detailed questions about fraud, waste, and abuse in New York's $124 billion Medicaid program—one of the largest state Medicaid programs in the country. Oz cited serious concerns about New York's oversight of personal care, home health, adult day care programming, non-emergency medical transportation, and behavioral health services, noting per-capita spending and workforce utilization patterns significantly exceeding national norms. Hochul was given 30 days to respond with a corrective action plan or face potential deferral of federal Medicaid payments. CMS cited the $68 million Brooklyn adult day care fraud as an example.",
       "amount": null,
       "amount_numeric": 0,
       "officials": [
@@ -1573,7 +1573,7 @@
       "agency": "DOJ",
       "type": "Civil Action",
       "title": "C.R. Bard & Affiliates Pay $17M for Catheter Kickback Scheme",
-      "description": "C.R. Bard, Inc. and affiliates Liberator Medical Supply, Liberator Holdings, and Rochester Medical Corporation agreed to pay $17 million to resolve False Claims Act allegations that they provided free samples and discounts to urology practice groups as illegal kickbacks in exchange for using Bard's proprietary 'Link' prescription form for intermittent catheters. The scheme ran from 2016 through February 2020. A former Bard employee filed the qui tam whistleblower lawsuit.",
+      "description": "C.R. Bard, Inc. and affiliates Liberator Medical Supply, Liberator Holdings, and Rochester Medical Corporation agreed to pay $17 million to resolve False Claims Act allegations that they provided free samples and discounts to urology practice groups as illegal kickbacks in exchange for using Bard's proprietary 'Link' prescription form for intermittent catheters. The scheme ran from 2016 through February 2020. A former employee of 180 Medical filed the qui tam whistleblower lawsuit.",
       "amount": "$17 million",
       "amount_numeric": 17000000.0,
       "officials": [],
@@ -1628,7 +1628,7 @@
       "agency": "DOJ",
       "type": "Criminal Enforcement",
       "title": "Jeffrey King (Apex Medical) Pleads Guilty to $1.2B Wound Graft Medicare Fraud",
-      "description": "Jeffrey King, 46, of Phoenix, Arizona, part of a scheme involving Apex Medical LLC and Viking Medical Consultants LLC (run by co-defendant Alexandra Gehrke), pleaded guilty to conspiracy to commit health care fraud for his role in a $1.2 billion scheme involving medically unnecessary amniotic wound grafts applied to elderly and hospice patients. King and co-conspirators instructed untrained sales reps to order grafts in maximum sizes regardless of wound size to maximize reimbursement. They submitted $1,212,005,778 in false claims — over $960 million targeting Medicare, TRICARE, and CHAMPVA.",
+      "description": "Jeffrey King, 46, of Phoenix, Arizona, part of a scheme involving Apex Medical LLC and Viking Medical Consultants LLC (run by co-defendant Alexandra Gehrke), pleaded guilty to conspiracy to commit health care fraud and wire fraud for his role in a $1.2 billion scheme involving medically unnecessary amniotic wound grafts applied to elderly and hospice patients. Co-defendant Gehrke instructed untrained sales reps to order grafts in maximum sizes regardless of wound size to maximize reimbursement. They submitted $1,212,005,778 in false claims — over $960 million targeting Medicare, TRICARE, and CHAMPVA.",
       "amount": "$1.2B",
       "amount_numeric": 1212005778,
       "officials": [],
@@ -1710,7 +1710,7 @@
       "title": "Health Net Federal Services & Centene Pay $11.25M for Cybersecurity False Claims (TRICARE)",
       "description": "Health Net Federal Services LLC and its parent Centene Corporation agreed to pay $11,253,400 to resolve False Claims Act allegations stemming from cybersecurity failures. From 2015 through 2018, HNFS allegedly failed to meet cybersecurity controls and falsely certified compliance in annual reports to the Defense Health Agency under its TRICARE contract, including failing to timely scan for known vulnerabilities and remediate security flaws on its networks.",
       "amount": "$11.25M",
-      "amount_numeric": 11250000.0,
+      "amount_numeric": 11253400,
       "officials": [],
       "link": "https://www.justice.gov/opa/pr/health-net-federal-services-llc-and-centene-corporation-agree-pay-over-11-million-resolve",
       "link_label": "DOJ Press Release",
@@ -1718,7 +1718,6 @@
       "tags": [
         "Cybersecurity",
         "TRICARE",
-        "Medicare Advantage",
         "False Claims Act"
       ],
       "state": "CA",
@@ -1800,7 +1799,7 @@
         "Medicare",
         "False Claims Act"
       ],
-      "state": null,
+      "state": "CA",
       "source_type": "official",
       "auto_fetched": false,
       "entities": [
@@ -2071,8 +2070,7 @@
       "tags": [
         "DME Fraud",
         "Medicare",
-        "Telehealth",
-        "Unnecessary Procedures"
+        "Telehealth"
       ],
       "state": "MA",
       "source_type": "official",
@@ -2111,7 +2109,7 @@
       "agency": "DOJ",
       "type": "Criminal Enforcement",
       "title": "Chesapeake Regional Medical Center Indicted for Health Care Fraud — Rare Hospital Indictment",
-      "description": "A federal grand jury in the Eastern District of Virginia indicted Chesapeake Regional Medical Center for conspiracy to commit health care fraud and obstruction in connection with enabling Dr. Javaid Perwaiz to perform thousands of medically unnecessary surgeries (hysterectomies, elective inductions) from 2010—2019. CRMC allegedly received approximately $18.5 million in reimbursements from Medicare, Medicaid, and TRICARE for these procedures. This is among the rarest instances of a hospital entity — rather than individuals — being criminally charged for health care fraud.",
+      "description": "A federal grand jury in the Eastern District of Virginia indicted Chesapeake Regional Medical Center for conspiracy to defraud the United States and health care fraud in connection with enabling Dr. Javaid Perwaiz to perform thousands of medically unnecessary surgeries (hysterectomies, elective inductions) from 2010—2019. CRMC allegedly received approximately $18.5 million in reimbursements from Medicare, Medicaid, and TRICARE for these procedures. This is among the rarest instances of a hospital entity — rather than individuals — being criminally charged for health care fraud.",
       "amount": "$18.5M",
       "amount_numeric": 18500000,
       "officials": [],
@@ -2161,7 +2159,7 @@
       "agency": "Congress",
       "type": "Investigation",
       "title": "Senate Report: UnitedHealth 'Aggressively' Gaming Medicare Advantage, Turning Risk Adjustment Into Profit Engine",
-      "description": "Sen. Grassley's 105-page Senate Judiciary Committee report, based on 50,000+ pages of internal UnitedHealth documents, finds the nation's largest MA insurer (10M members) systematically transformed diagnosis coding into a 'major profit-centered strategy.' UnitedHealth guides providers to apply lucrative diagnosis codes, including diagnosing patients taking prescribed opioids as physically dependent. Industry-wide MA upcoding is estimated to cost taxpayers $84B/year. DOJ has opened both criminal and civil fraud investigations into UnitedHealth's billing practices.",
+      "description": "Sen. Grassley's 105-page Senate Judiciary Committee report, based on 50,000+ pages of internal UnitedHealth documents, finds the nation's largest MA insurer (10M members) systematically transformed diagnosis coding into a 'major profit-centered strategy.' UnitedHealth guides providers to apply lucrative diagnosis codes, including diagnosing patients taking prescribed opioids as physically dependent. DOJ has opened both criminal and civil fraud investigations into UnitedHealth's billing practices.",
       "amount": "$84 billion/year (estimated industry-wide MA upcoding cost)",
       "amount_numeric": 84000000000,
       "officials": [],
@@ -2250,8 +2248,7 @@
       "tags": [
         "Medicare",
         "Medicaid",
-        "Organized Crime",
-        "Foreign Nationals"
+        "Organized Crime"
       ],
       "state": null,
       "source_type": "news",
