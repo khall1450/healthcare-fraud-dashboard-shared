@@ -2212,6 +2212,30 @@
       "related_agency": "DOJ"
     },
     {
+      "id": "congress-2026-02-04-senate-judiciary-somali-fraud",
+      "date": "2026-02-04",
+      "agency": "Congress",
+      "type": "Congressional Hearing",
+      "title": "Senate Judiciary Subcommittee Hearing: Somali Scammers — Fighting Fraud in Minnesota and Beyond",
+      "description": "Senate Judiciary Subcommittee on Federal Courts, Oversight, Agency Action, and Federal Rights held a hearing chaired by Sen. Ted Cruz examining fraud schemes attributed to Somali perpetrators in Minnesota and their broader national implications. Witnesses included independent investigative journalist David Hoch, Public Citizen co-president Robert Weissman, and Minnesota state Rep. Kristin Robbins, chair of the state House Fraud Prevention Committee. The hearing focused on fraud in federal programs including Medicaid, with Minnesota as the central case study.",
+      "amount": "",
+      "amount_numeric": 0.0,
+      "officials": [
+        "Ted Cruz"
+      ],
+      "link": "https://www.judiciary.senate.gov/committee-activity/hearings/somali-scammers-fighting-fraud-in-minnesota-and-beyond-02-04-2026",
+      "link_label": "Senate Judiciary Committee",
+      "social_posts": [],
+      "tags": [
+        "Medicaid",
+        "Organized Crime"
+      ],
+      "state": "MN",
+      "source_type": "official",
+      "auto_fetched": false,
+      "entities": []
+    },
+    {
       "id": "congress-2026-02-03-house-ec-fraud-hearing",
       "date": "2026-02-03",
       "agency": "Congress",
