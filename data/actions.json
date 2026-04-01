@@ -2184,7 +2184,7 @@
       "type": "Report",
       "title": "Senate Report: UnitedHealth 'Aggressively' Gaming Medicare Advantage, Turning Risk Adjustment Into Profit Engine",
       "description": "Sen. Grassley's 105-page Senate Judiciary Committee report, based on 50,000+ pages of internal UnitedHealth documents, finds the nation's largest MA insurer (10M members) systematically transformed diagnosis coding into a 'major profit-centered strategy.' UnitedHealth guides providers to apply lucrative diagnosis codes, including diagnosing patients taking prescribed opioids as physically dependent. DOJ has opened both criminal and civil fraud investigations into UnitedHealth's billing practices.",
-      "amount": "$84B/year (est.)",
+      "amount": "~$84B/year",
       "amount_numeric": 84000000000.0,
       "officials": [],
       "link": "https://www.grassley.senate.gov/news/news-releases/grassley-report-details-unitedhealths-record-of-appearing-to-game-the-medicare-advantage-system-turning-risk-adjustment-into-its-own-business",
@@ -3845,7 +3845,7 @@
       "type": "Report",
       "title": "MedPAC/CRFB Analysis: Medicare Advantage Upcoding to Cost $44B in 2025; $1.3 Trillion Over Decade",
       "description": "MedPAC found upcoding will increase Medicare payments to private insurers by an estimated 11% ($44 billion) in 2025. CRFB estimated MA overpayments of $1.3 trillion over the next decade. CMS Administrator Oz pledged to go after upcoding during his Senate confirmation.",
-      "amount": "$40B/year (est.)",
+      "amount": "~$40B/year",
       "amount_numeric": 40000000000.0,
       "officials": [
         "Dr. Mehmet Oz"
@@ -4118,7 +4118,7 @@
       "type": "Investigation",
       "title": "House Oversight Committee Launches Investigation into California Hospice Fraud, Sends Letter to Gov. Newsom",
       "description": "House Oversight Committee Chairman James Comer launched an investigation into rampant hospice fraud in California, sending a letter to Gov. Newsom requesting documents on the state's oversight and internal controls. Key findings: LA County saw a 1,500% increase in hospice providers since 2010, with at least $105 million in annual Medicare overbilling. CMS estimates LA County hospice fraud totals $3.5 billion, with 18% of all U.S. hospice billing originating from LA County alone.",
-      "amount": "$3.5B (est.)",
+      "amount": "~$3.5B",
       "amount_numeric": 3500000000.0,
       "officials": [
         "Chairman James Comer"
