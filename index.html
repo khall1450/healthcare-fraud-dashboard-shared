@@ -347,8 +347,19 @@ h1,h2,h3,h4,h5,h6 { font-family: 'Bona Nova', Georgia, serif; }
           <i class="fa-solid fa-xmark me-1"></i>Clear
         </button>
       </div>
+      <div id="landscapeFilters" class="d-flex flex-wrap align-items-center gap-2 d-none">
+        <select class="form-select filter-select" id="landscapeStateFilter" onchange="filterLandscape()">
+          <option value="all">All States</option>
+        </select>
+        <input type="date" class="form-control filter-date" id="landscapeDateFrom" onchange="filterLandscape()" title="From date" />
+        <input type="date" class="form-control filter-date" id="landscapeDateTo" onchange="filterLandscape()" title="To date" />
+        <button class="btn btn-outline-secondary btn-sm" onclick="clearLandscapeFilters()">
+          <i class="fa-solid fa-xmark me-1"></i>Clear
+        </button>
+      </div>
       <span class="result-count ms-auto" id="resultCount"></span>
       <span class="result-count ms-auto d-none" id="oversightResultCount"></span>
+      <span class="result-count ms-auto d-none" id="landscapeResultCount"></span>
     </div>
   </div>
 </div>
@@ -393,7 +404,6 @@ h1,h2,h3,h4,h5,h6 { font-family: 'Bona Nova', Georgia, serif; }
 <div id="landscapeView" class="container-fluid px-4 py-4 d-none">
     <div class="d-flex align-items-center justify-content-between mb-3">
       <p style="font-size:0.8rem;color:var(--text-muted);margin:0;">Major investigations and media coverage uncovering health care fraud</p>
-      <span class="result-count" id="landscapeCount"></span>
     </div>
     <div id="landscapeGrid" class="row g-3"></div>
 </div>
@@ -952,8 +962,10 @@ function setView(view) {
   document.getElementById('btnLandscapeView').classList.toggle('active', view === 'landscape');
   document.getElementById('enforcementFilters').classList.toggle('d-none', view !== 'cards');
   document.getElementById('oversightFilters').classList.toggle('d-none', view !== 'oversight');
+  document.getElementById('landscapeFilters').classList.toggle('d-none', view !== 'landscape');
   document.getElementById('resultCount').classList.toggle('d-none', view !== 'cards');
   document.getElementById('oversightResultCount').classList.toggle('d-none', view !== 'oversight');
+  document.getElementById('landscapeResultCount').classList.toggle('d-none', view !== 'landscape');
   const searchInput = document.getElementById('searchInput');
   searchInput.placeholder = view === 'landscape' ? 'Search stories...' : view === 'oversight' ? 'Search oversight actions...' : 'Search enforcement actions...';
   searchInput.value = '';
@@ -974,6 +986,7 @@ async function loadLandscape() {
     const data = await resp.json();
     allStories = (data.stories || []).sort((a, b) => (b.date || '').localeCompare(a.date || ''));
     landscapeLoaded = true;
+    populateStateFilter('landscapeStateFilter', allStories);
     filterLandscape();
   } catch (err) {
     console.error('Failed to load landscape data:', err);
@@ -1074,13 +1087,29 @@ function renderStoryCards(stories) {
 
 function filterLandscape() {
   const search = document.getElementById('searchInput').value.trim().toLowerCase();
+  const state  = document.getElementById('landscapeStateFilter').value;
+  const from   = document.getElementById('landscapeDateFrom').value;
+  const to     = document.getElementById('landscapeDateTo').value;
   const filtered = allStories.filter(s => {
-    if (!search) return true;
-    const hay = [s.title, s.description, (s.tags || []).join(' ')].join(' ').toLowerCase();
-    return hay.includes(search);
+    if (search) {
+      const hay = [s.title, s.description, (s.tags || []).join(' ')].join(' ').toLowerCase();
+      if (!hay.includes(search)) return false;
+    }
+    if (state !== 'all' && s.state !== state) return false;
+    if (from && s.date < from) return false;
+    if (to   && s.date > to)   return false;
+    return true;
   });
-  document.getElementById('landscapeCount').textContent = filtered.length + ' stories';
+  document.getElementById('landscapeResultCount').textContent = filtered.length + ' stories';
   renderStoryCards(filtered);
+}
+
+function clearLandscapeFilters() {
+  document.getElementById('landscapeStateFilter').value = 'all';
+  document.getElementById('landscapeDateFrom').value = '';
+  document.getElementById('landscapeDateTo').value = '';
+  document.getElementById('searchInput').value = '';
+  filterLandscape();
 }
 
 
