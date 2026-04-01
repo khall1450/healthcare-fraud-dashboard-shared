@@ -405,30 +405,6 @@
       "entities": []
     },
     {
-      "id": "cms-2026-01-medicaid-financing-loophole",
-      "date": "2026-01-12",
-      "agency": "CMS",
-      "type": "Rule/Regulation",
-      "title": "CMS Closes Medicaid Financing Loophole Used by States to Shift Costs to Federal Government",
-      "description": "CMS announced action to close a Medicaid financing loophole used by states to shift Medicaid costs to the federal government, strengthening program integrity and reducing improper federal spending.",
-      "amount": "",
-      "amount_numeric": 0.0,
-      "officials": [
-        "Dr. Mehmet Oz"
-      ],
-      "link": "https://www.cms.gov/newsroom/press-releases",
-      "link_label": "CMS Press Release",
-      "social_posts": [],
-      "tags": [
-        "Medicaid",
-        "Program Integrity"
-      ],
-      "state": null,
-      "source_type": "official",
-      "auto_fetched": false,
-      "entities": []
-    },
-    {
       "id": "cms-2026-01-14-california-illegal-immigrants",
       "date": "2026-01-14",
       "agency": "CMS",
@@ -440,30 +416,7 @@
       "officials": [
         "Dr. Mehmet Oz"
       ],
-      "link": "https://www.cms.gov/newsroom/press-releases",
-      "link_label": "CMS Press Release",
-      "social_posts": [],
-      "tags": [
-        "Medicaid"
-      ],
-      "state": "CA",
-      "source_type": "social_media",
-      "auto_fetched": false,
-      "entities": []
-    },
-    {
-      "id": "cms-doj-2026-01-19-california-billion-return",
-      "date": "2026-01-19",
-      "agency": "CMS",
-      "type": "Audit",
-      "title": "California Must Return $1B+ After CMS Audit on Unlawful Immigrant Health Spending",
-      "description": "First Assistant U.S. Attorney Bill Essayli reported California must return more than $1 billion to the federal government after a CMS audit uncovered its massive unlawful health care spending on illegal immigrants.",
-      "amount": "$1B+",
-      "amount_numeric": 1000000000.0,
-      "officials": [
-        "Bill Essayli"
-      ],
-      "link": "https://www.foxnews.com/politics/key-trump-agency-vows-claw-back-over-1b-benefitting-illegals-blue-states",
+      "link": "https://www.cms.gov/newsroom/press-releases/cms-increasing-oversight-states-illegally-using-federal-medicaid-funding-health-care-illegal",
       "link_label": "CMS Press Release",
       "social_posts": [],
       "tags": [
