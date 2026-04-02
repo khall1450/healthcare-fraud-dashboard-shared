@@ -2564,28 +2564,6 @@
       "entities": []
     },
     {
-      "id": "dea-2025-11-17-pensacola-drug-diversion",
-      "date": "2025-11-17",
-      "agency": "DEA",
-      "type": "Criminal Enforcement",
-      "title": "Four Pensacola Women Plead Guilty to Unlawful Diversion of Controlled Substances",
-      "description": "Four Pensacola, Florida women pleaded guilty to unlawful diversion of controlled substances, including conspiracy to distribute oxycodone, hydrocodone, and amphetamine.",
-      "amount": null,
-      "amount_numeric": 0,
-      "officials": [],
-      "link": "https://www.dea.gov/press-releases/2025/11/17/pensacola-women-plead-guilty-illegal-drug-diversion",
-      "link_label": "DEA Press Release",
-      "social_posts": [],
-      "tags": [
-        "Guilty Plea",
-        "Opioids"
-      ],
-      "entities": [],
-      "state": "FL",
-      "source_type": "official",
-      "auto_fetched": false
-    },
-    {
       "id": "doj-2025-11-alex-alexsanian-ca-radiology-plea",
       "date": "2025-11-05",
       "agency": "DOJ",
@@ -4183,29 +4161,6 @@
       ]
     },
     {
-      "id": "dea-2025-01-14-stockton-np-opioid-lawsuit",
-      "date": "2025-01-14",
-      "agency": "DOJ",
-      "type": "Civil Action",
-      "title": "DOJ Sues Stockton Nurse Practitioner for Selling Opioid Prescriptions via Telegram",
-      "description": "DOJ filed a civil complaint against nurse practitioner Joan Rubinger of Stockton, CA for a nationwide scheme to sell illegal opioid prescriptions for cash via Telegram. Rubinger issued over 900 illegitimate prescriptions without examinations, providing customers price lists to select their own drugs.",
-      "amount": null,
-      "amount_numeric": 0,
-      "officials": [],
-      "link": "https://www.dea.gov/press-releases/2025/01/14/justice-department-sues-stockton-based-nurse-practitioner-stop-her-sale",
-      "link_label": "DEA Press Release",
-      "social_posts": [],
-      "tags": [
-        "Civil Complaint Filed",
-        "Opioids"
-      ],
-      "entities": [],
-      "state": "CA",
-      "source_type": "official",
-      "auto_fetched": false,
-      "related_agency": "DEA"
-    },
-    {
       "id": "doj-2025-01-08-chesapeake-hospital-indictment",
       "date": "2025-01-08",
       "agency": "DOJ",
@@ -4232,29 +4187,6 @@
       "entities": [
         "Chesapeake Regional Medical Center"
       ]
-    },
-    {
-      "id": "dea-2025-01-07-smithers-467-counts-opioid",
-      "date": "2025-01-07",
-      "agency": "DOJ",
-      "type": "Criminal Enforcement",
-      "title": "Martinsville Doctor Convicted on 467 Federal Counts of Opioid Distribution",
-      "description": "Dr. Joel Smithers of Martinsville, VA convicted of 466 counts of illegally prescribing Schedule II controlled substances and maintaining drug-involved premises. Smithers prescribed controlled substances to every patient, distributing over 500,000 Schedule II pills. Sentenced to 40 years.",
-      "amount": null,
-      "amount_numeric": 0,
-      "officials": [],
-      "link": "https://www.justice.gov/usao-wdva/pr/martinsville-doctor-convicted-467-federal-counts-drug-distribution",
-      "link_label": "DOJ Press Release",
-      "social_posts": [],
-      "tags": [
-        "Convicted",
-        "Opioids"
-      ],
-      "entities": [],
-      "state": "VA",
-      "source_type": "official",
-      "auto_fetched": false,
-      "related_agency": "DEA"
     }
   ]
 }
