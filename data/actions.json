@@ -2144,7 +2144,7 @@
         "Upcoding"
       ],
       "state": null,
-      "source_type": "news",
+      "source_type": "official",
       "auto_fetched": false,
       "entities": [
         "UnitedHealth"
@@ -2247,7 +2247,7 @@
         "Organized Crime"
       ],
       "state": null,
-      "source_type": "news",
+      "source_type": "official",
       "auto_fetched": false,
       "entities": []
     },
@@ -2268,7 +2268,7 @@
         "ACA"
       ],
       "state": null,
-      "source_type": "news",
+      "source_type": "official",
       "auto_fetched": false,
       "entities": []
     },
