@@ -2179,32 +2179,6 @@
       ]
     },
     {
-      "id": "media-2026-01-22-denver-post-zynex-indictment",
-      "date": "2026-01-22",
-      "agency": "DOJ",
-      "type": "Criminal Enforcement",
-      "title": "Denver Post: Zynex Executives Indicted in $873 Million Health Care Fraud Scheme",
-      "description": "Federal grand jury indicted Thomas Sandgaard (CEO) and Anna Lucsok (COO) of Zynex Inc. for a 2017-2025 scheme to ship excessive and unnecessary medical supplies to patients and fraudulently bill insurers. The scheme generated $873 million+ in revenue ($600M+ for supplies alone). Assets including luxury cars, a private jet, and properties were seized.",
-      "amount": "$873M",
-      "amount_numeric": 873000000.0,
-      "officials": [],
-      "link": "https://www.denverpost.com/2026/01/22/zynex-fraud-indictment-thomas-sandgaard-anna-lucsok/",
-      "link_label": "Denver Post Investigation",
-      "social_posts": [],
-      "tags": [
-        "DME",
-        "Indicted",
-        "Medicare"
-      ],
-      "state": "CO",
-      "source_type": "news",
-      "auto_fetched": false,
-      "entities": [
-        "Zynex"
-      ],
-      "related_agency": "DOJ"
-    },
-    {
       "id": "congress-2026-02-04-senate-judiciary-somali-fraud",
       "date": "2026-02-04",
       "agency": "Congress",
