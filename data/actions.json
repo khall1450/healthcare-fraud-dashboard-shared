@@ -3309,12 +3309,12 @@
       "agency": "DOJ",
       "type": "Criminal Enforcement",
       "title": "Bismarck Man Charged with $1.8M Government Fraud Including False Medicaid Claims",
-      "description": "A Bismarck, North Dakota man was charged with taking $1.8 million through government fraud, including fraudulent Medicaid claims submitted between January 2022 and September 2024. Case brought as part of the 2025 National Health Care Fraud Takedown.",
+      "description": "Isaac Osei Afoakwa, a Bismarck, North Dakota man, was charged with $1.8 million in government fraud — including approximately $200,000 in fraudulent Medicaid non-emergency transportation claims for trips that never occurred, and approximately $1.6 million in fraudulent COVID-relief loans. Case brought as part of the 2025 National Health Care Fraud Takedown.",
       "amount": "$1.8M",
       "amount_numeric": 1800000,
       "officials": [],
-      "link": "https://northdakotamonitor.com/2025/07/01/bismarck-man-accused-of-taking-1-8-million-in-government-fraud-case/",
-      "link_label": "North Dakota Monitor",
+      "link": "https://www.justice.gov/usao-nd/pr/national-health-care-fraud-takedown-results-324-defendants-charged-connection-over-146",
+      "link_label": "DOJ",
       "social_posts": [],
       "tags": [
         "Charged",
@@ -3323,7 +3323,7 @@
       ],
       "entities": [],
       "state": "ND",
-      "source_type": "news",
+      "source_type": "official",
       "auto_fetched": false
     },
     {
