@@ -119,7 +119,6 @@ h1,h2,h3,h4,h5,h6 { font-family: 'Bona Nova', Georgia, serif; }
 .action-card[data-agency="HHS-OIG"]     { --agency-color: var(--oig); }
 .action-card[data-agency="White House"] { --agency-color: var(--whitehouse); }
 .action-card[data-agency="FDA"]        { --agency-color: #7B1FA2; }
-.action-card[data-agency="DEA"]        { --agency-color: #4A148C; }
 .action-card[data-agency="Media"]      { --agency-color: #8B6914; }
 .action-card[data-agency="State Agency"] { --agency-color: #795548; }
 .action-card[data-agency="Treasury"]     { --agency-color: #1B5E20; }
@@ -134,7 +133,6 @@ h1,h2,h3,h4,h5,h6 { font-family: 'Bona Nova', Georgia, serif; }
 .agency-Media       { background: #8B6914; }
 .agency-Congress    { background: #1a5276; }
 .agency-FDA         { background: #7B1FA2; }
-.agency-DEA         { background: #4A148C; }
 .agency-GAO         { background: #2e7d32; }
 .agency-State-Agencies { background: #795548; }
 .agency-Treasury       { background: #1B5E20; }
@@ -216,7 +214,7 @@ h1,h2,h3,h4,h5,h6 { font-family: 'Bona Nova', Georgia, serif; }
         <div class="header-seal"><i class="fa-solid fa-shield-halved fa-2x"></i></div>
         <div>
           <h1 class="header-title mb-0">Health Care Fraud Dashboard</h1>
-          <p class="header-subtitle mb-0">DOJ &bull; CMS &bull; HHS-OIG &bull; DEA &bull; GAO &bull; Congress &bull; Treasury &bull; White House &bull; Media</p>
+          <p class="header-subtitle mb-0">DOJ &bull; CMS &bull; HHS-OIG &bull; GAO &bull; Congress &bull; Treasury &bull; White House &bull; Media</p>
         </div>
       </div>
       <!-- Rotating Paragon Spotlight -->
@@ -287,7 +285,7 @@ h1,h2,h3,h4,h5,h6 { font-family: 'Bona Nova', Georgia, serif; }
       3% and 10% of total U.S. health spending. This dashboard tracks the federal response, including criminal and civil enforcement actions and federal oversight and accountability measures. It also highlights investigative media coverage exposing fraud across the system.
     </p>
     <div class="narrative-sub">
-      Coverage spans actions by DOJ, CMS, HHS-OIG, DEA, GAO, Congress, the White House, and other federal agencies, beginning January 2025. This dashboard highlights key actions and investigations; it is not a comprehensive record.
+      Coverage spans actions by DOJ, CMS, HHS-OIG, GAO, Congress, the White House, and other federal agencies, beginning January 2025. This dashboard highlights key actions and investigations; it is not a comprehensive record.
     </div>
     <div class="narrative-sub">
       <a href="https://www.nhcaa.org/tools-insights/about-health-care-fraud/the-challenge-of-health-care-fraud/" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline dotted">NHCAA / HHS</a> &mdash; based on 3&ndash;10% of ~$4.3T in annual U.S. health care expenditures
@@ -414,7 +412,7 @@ h1,h2,h3,h4,h5,h6 { font-family: 'Bona Nova', Georgia, serif; }
 <footer class="dashboard-footer">
   <div class="container-fluid px-4">
     <div class="d-flex flex-wrap justify-content-between align-items-center py-3">
-      <p class="mb-0 text-muted small" style="color:rgba(255,255,255,0.5)!important">Data sourced from DOJ, CMS, HHS-OIG, DEA, GAO, Treasury, White House, and Congress, plus investigative media reports.</p>
+      <p class="mb-0 text-muted small" style="color:rgba(255,255,255,0.5)!important">Data sourced from DOJ, CMS, HHS-OIG, GAO, Treasury, White House, and Congress, plus investigative media reports.</p>
       <p class="mb-0 text-muted small" style="color:rgba(255,255,255,0.5)!important"><span id="footerUpdated"></span> &bull; Built by <a href="https://paragoninstitute.org/profile/katherine-hall/" target="_blank" rel="noopener noreferrer" style="color:rgba(255,255,255,0.7);text-decoration:underline;text-underline-offset:2px;">Katherine Hall</a>, <a href="https://paragoninstitute.org/" target="_blank" rel="noopener noreferrer" style="color:rgba(255,255,255,0.7);text-decoration:underline;text-underline-offset:2px;">Paragon Health Institute</a></p>
     </div>
   </div>
@@ -462,14 +460,13 @@ let enforcementActions = [];
 let oversightActions = [];
 const ENFORCEMENT_TYPES = new Set(['Criminal Enforcement', 'Civil Action']);
 
-const AGENCY_CLASS = { 'DOJ':'agency-DOJ','HHS':'agency-HHS','CMS':'agency-CMS','HHS-OIG':'agency-HHS-OIG','FDA':'agency-FDA','DEA':'agency-DEA','White House':'agency-White-House','Media':'agency-Media','Congress':'agency-Congress','GAO':'agency-GAO','State Agency':'agency-State-Agencies','Treasury':'agency-Treasury' };
+const AGENCY_CLASS = { 'DOJ':'agency-DOJ','HHS':'agency-HHS','CMS':'agency-CMS','HHS-OIG':'agency-HHS-OIG','FDA':'agency-FDA','White House':'agency-White-House','Media':'agency-Media','Congress':'agency-Congress','GAO':'agency-GAO','State Agency':'agency-State-Agencies','Treasury':'agency-Treasury' };
 const AGENCY_TOOLTIPS = {
   'DOJ': 'Department of Justice \u2014 Prosecutes health care fraud through criminal and civil enforcement, including the Health Care Fraud Strike Force.',
   'HHS-OIG': 'HHS Office of Inspector General \u2014 Investigates fraud and audits Medicare, Medicaid, and other HHS programs.',
   'CMS': 'Centers for Medicare & Medicaid Services \u2014 Administers Medicare and Medicaid; takes administrative actions like provider revocations and payment deferrals.',
   'HHS': 'Department of Health and Human Services \u2014 Parent agency of CMS and OIG; issues policy directives and coordinates anti-fraud initiatives.',
   'FDA': 'Food and Drug Administration \u2014 Enforces against adulterated or misbranded medical products and pharmaceutical fraud.',
-  'DEA': 'Drug Enforcement Administration \u2014 Targets illegal distribution of controlled substances, including pill mills and opioid diversion.',
   'GAO': 'Government Accountability Office \u2014 Congress\u2019s auditing arm; publishes reports identifying fraud vulnerabilities in federal health programs.',
   'Congress': 'Congressional committees conducting oversight hearings, investigations, and legislation related to health care fraud.',
   'White House': 'Executive actions, presidential memoranda, and administration-wide anti-fraud initiatives.',

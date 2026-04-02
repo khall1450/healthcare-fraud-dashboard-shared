@@ -1911,30 +1911,6 @@
       "entities": []
     },
     {
-      "id": "dea-2026-01-13-atlantic-biologicals-opioid-dpa",
-      "date": "2026-01-13",
-      "agency": "DOJ",
-      "type": "Criminal Enforcement",
-      "title": "Miami Pharmaceutical Wholesaler Admits Selling 14 Million Opioid Doses to Pill Mill Pharmacies",
-      "description": "Atlantic Biologicals Corporation entered a deferred prosecution agreement admitting its unit National Apothecary Solutions sold over 14 million opioid doses to Houston-area pill mill pharmacies from 2017 to 2023, knowing they would be dispensed outside legitimate medical practice. Paid $450,000 criminal penalty.",
-      "amount": "$450,000",
-      "amount_numeric": 450000,
-      "officials": [],
-      "link": "https://www.justice.gov/opa/pr/atlantic-biologicals-corporation-enters-deferred-prosecution-agreement-opioid-distribution",
-      "link_label": "DOJ Press Release",
-      "social_posts": [],
-      "tags": [
-        "Non-Prosecution Agreement",
-        "Opioids",
-        "Pharmacy"
-      ],
-      "entities": [],
-      "state": "FL, TX",
-      "source_type": "official",
-      "auto_fetched": false,
-      "related_agency": "DEA"
-    },
-    {
       "id": "congress-2026-01-12-grassley-unitedhealth-ma-report",
       "date": "2026-01-12",
       "agency": "Congress",
@@ -2659,31 +2635,6 @@
       "entities": []
     },
     {
-      "id": "dea-2025-09-26-health-fit-pharmacy-houston-pill-mill",
-      "date": "2025-09-26",
-      "agency": "DOJ",
-      "type": "Criminal Enforcement",
-      "title": "Houston Pill Mill Pharmacy Owner Sentenced to 12 Years; 500,000+ Opioid Pills Dispensed",
-      "description": "Arthur Billings, owner of Health Fit Pharmacy (a cash-only pill mill in Houston), sentenced to 12 years and ordered to forfeit $2.6 million. Three pharmacists also sentenced. The pharmacy dispensed over 500,000 opioid pills to individuals sent by drug traffickers, using prescriptions written in names of physicians whose identities were stolen.",
-      "amount": "$2.6M",
-      "amount_numeric": 2600000,
-      "officials": [],
-      "link": "https://www.justice.gov/opa/pr/pharmacy-owner-and-pharmacists-sentenced-pill-mill-scheme-involving-hundreds-thousands",
-      "link_label": "DOJ Press Release",
-      "social_posts": [],
-      "tags": [
-        "Guilty Plea",
-        "Identity Theft",
-        "Opioids",
-        "Pharmacy"
-      ],
-      "entities": [],
-      "state": "TX",
-      "source_type": "official",
-      "auto_fetched": false,
-      "related_agency": "DEA"
-    },
-    {
       "id": "doj-2025-09-massachusetts-strike-force-expansion",
       "date": "2025-09-23",
       "agency": "DOJ",
@@ -3004,28 +2955,6 @@
       "entities": []
     },
     {
-      "id": "dea-2025-07-03-operation-profit-over-patients",
-      "date": "2025-07-03",
-      "agency": "DEA",
-      "type": "Criminal Enforcement",
-      "title": "DEA Operation Profit Over Patients: 51 Arrests, 15 Million Pills of Diverted Opioids",
-      "description": "DEA executed Operation Profit Over Patients as part of the National Health Care Fraud Takedown, resulting in 51 arrests and 122 criminal charges against 74 individuals (44 licensed medical professionals) for diverting over 15 million pills of prescription opioids.",
-      "amount": null,
-      "amount_numeric": 0,
-      "officials": [],
-      "link": "https://www.dea.gov/stories/2025/2025-07/2025-07-03/dea-executes-operation-profit-over-patients-dismantle-health-care",
-      "link_label": "DEA Press Release",
-      "social_posts": [],
-      "tags": [
-        "National Takedown",
-        "Opioids"
-      ],
-      "entities": [],
-      "state": null,
-      "source_type": "official",
-      "auto_fetched": false
-    },
-    {
       "id": "doj-2025-07-fca-working-group",
       "date": "2025-07-02",
       "agency": "DOJ",
@@ -3155,30 +3084,6 @@
       "entities": []
     },
     {
-      "id": "doj-2025-06-opioid-fraud",
-      "date": "2025-06-30",
-      "agency": "DOJ",
-      "type": "Criminal Enforcement",
-      "title": "74 Defendants Charged in Opioid Diversion Schemes",
-      "description": "As part of the National Health Care Fraud Takedown, DOJ charged 74 defendants across dozens of cases involving the illegal diversion of more than 15 million prescription opioid pills.",
-      "amount": null,
-      "amount_numeric": 0,
-      "officials": [],
-      "link": "https://www.justice.gov/opa/pr/national-health-care-fraud-takedown-results-324-defendants-charged-connection-over-146",
-      "link_label": "DOJ Press Release",
-      "social_posts": [],
-      "tags": [
-        "Charged",
-        "National Takedown",
-        "Opioids",
-        "Pharmacy"
-      ],
-      "state": null,
-      "source_type": "official",
-      "auto_fetched": false,
-      "entities": []
-    },
-    {
       "id": "doj-2025-06-arizona-skin-grafts",
       "date": "2025-06-30",
       "agency": "DOJ",
@@ -3278,29 +3183,6 @@
       "state": "ND",
       "source_type": "official",
       "auto_fetched": false
-    },
-    {
-      "id": "dea-2025-06-26-okafor-dc-pill-mill-18yr",
-      "date": "2025-06-26",
-      "agency": "DOJ",
-      "type": "Criminal Enforcement",
-      "title": "D.C. Physician Sentenced to 18 Years for Operating Nationwide Opioid Pill Mill",
-      "description": "Dr. Ndubuisi Joseph Okafor sentenced to 18 years for operating a pill mill from his D.C. clinic, prescribing opioids to individuals using false identities across at least 45 states, resulting in hundreds of thousands of opioid units prescribed.",
-      "amount": null,
-      "amount_numeric": 0,
-      "officials": [],
-      "link": "https://www.dea.gov/press-releases/2025/06/26/physician-sentenced-18-years-prison-for-operating-pill-mill-his-northwest",
-      "link_label": "DEA Press Release",
-      "social_posts": [],
-      "tags": [
-        "Guilty Plea",
-        "Opioids"
-      ],
-      "entities": [],
-      "state": "DC",
-      "source_type": "official",
-      "auto_fetched": false,
-      "related_agency": "DEA"
     },
     {
       "id": "gao-2025-06-26-medicaid-managed-care-improper-payments",
