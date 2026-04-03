@@ -318,14 +318,13 @@
       "description": "House Oversight Committee Chairman James Comer launched an investigation into rampant hospice fraud in California, sending a letter to Gov. Newsom requesting documents on the state's oversight and internal controls. Key findings: LA County saw a 1,500% increase in hospice providers since 2010, with at least $105 million in annual Medicare overbilling. CMS estimates LA County hospice fraud totals $3.5 billion, with 18% of all U.S. hospice billing originating from LA County alone.",
       "amount": "~$3.5B",
       "amount_numeric": 3500000000.0,
-      "officials": [
-        "Chairman James Comer"
-      ],
+      "officials": [],
       "link": "https://oversight.house.gov/release/oversight-committee-launches-investigation-into-rampant-taxpayer-fraud-in-california-hospice-programs/",
       "link_label": "House Oversight Press Release",
       "social_posts": [],
       "tags": [
         "Hospice",
+        "House Oversight Committee",
         "Medicare",
         "Upcoding"
       ],
@@ -1447,14 +1446,13 @@
       "description": "Chairman James Comer and the House Committee on Oversight and Government Reform took formal action in its investigation of fraud in New York's Consumer Directed Personal Assistance Program (CDPAP), a Medicaid-funded home care program. Spending ballooned from $2.5 billion in 2019 to $9.1 billion by 2023, with an estimated $1.2 billion or more lost to fraud and abuse. A former 27-year Medicaid fraud prosecutor described it as 'Minnesota multiplied by 10.' Notable cases include Brooklyn businesswoman Zakia Khan, who admitted to a $68 million fraud billing for services never provided, and a Brooklyn CEO sentenced for a $100 million home health care scheme.",
       "amount": "$1.2B+",
       "amount_numeric": 1200000000,
-      "officials": [
-        "Chairman James Comer"
-      ],
+      "officials": [],
       "link": "https://oversight.house.gov/release/comer-takes-new-action-in-investigation-of-fraud-in-new-yorks-medicaid-programs/",
       "link_label": "House Oversight Release",
       "social_posts": [],
       "tags": [
         "Home Health",
+        "House Oversight Committee",
         "Medicaid",
         "Organized Crime",
         "Program Integrity"
@@ -1521,14 +1519,13 @@
       "description": "Subpoenas issued to Blue Shield of California, Centene, CVS Health, Elevance Health, GuideWell, HCSC, Kaiser Permanente, and Oscar Health demanding information on fraud-protection measures, enrollees with unused subsidies, broker payments, and internal fraud audits.",
       "amount": "",
       "amount_numeric": 0.0,
-      "officials": [
-        "Chairman Jim Jordan"
-      ],
+      "officials": [],
       "link": "https://judiciary.house.gov/media/press-releases/chairmen-jordan-fitzgerald-and-van-drew-subpoena-insurance-providers-documents",
       "link_label": "House Judiciary",
       "social_posts": [],
       "tags": [
         "ACA",
+        "House Judiciary Committee",
         "Program Integrity"
       ],
       "entities": [
@@ -2301,13 +2298,12 @@
       "description": "Chairman Comer widened the investigation into extensive money laundering and fraud in Minnesota's social services programs, following findings by the U.S. Attorney for the District of Minnesota. A legislative audit revealed a grantee receiving nearly $680,000 for a single month without documentation.",
       "amount": "",
       "amount_numeric": 0.0,
-      "officials": [
-        "Chairman James Comer"
-      ],
+      "officials": [],
       "link": "https://oversight.house.gov/release/chairman-comer-widens-investigation-into-fraud-in-minnesotas-social-services-programs/",
       "link_label": "House Oversight",
       "social_posts": [],
       "tags": [
+        "House Oversight Committee",
         "Improper Payments",
         "Medicaid",
         "Money Laundering",
@@ -2971,8 +2967,7 @@
       "amount": "",
       "amount_numeric": 0.0,
       "officials": [
-        "Robert F. Kennedy Jr.",
-        "Chairman Mike Crapo"
+        "Robert F. Kennedy Jr."
       ],
       "link": "https://www.finance.senate.gov/hearings/the-presidents-2026-health-care-agenda",
       "link_label": "Senate Finance Committee",
@@ -2981,7 +2976,8 @@
         "ACA",
         "Medicaid",
         "Medicare",
-        "Program Integrity"
+        "Program Integrity",
+        "Senate Finance Committee"
       ],
       "entities": [],
       "state": null,
@@ -3319,13 +3315,13 @@
       "amount": "",
       "amount_numeric": 0.0,
       "officials": [
-        "Chairman James Comer",
         "Dr. Mehmet Oz"
       ],
       "link": "https://oversight.house.gov/release/oversight-committee-launches-investigation-into-new-yorks-abuse-of-federal-funds-in-medicaid-program/",
       "link_label": "House Oversight",
       "social_posts": [],
       "tags": [
+        "House Oversight Committee",
         "Improper Payments",
         "Medicaid",
         "Program Integrity"
