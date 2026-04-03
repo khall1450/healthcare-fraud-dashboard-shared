@@ -4229,7 +4229,7 @@
       "agency": "GAO",
       "type": "Report",
       "title": "GAO: Federal Government Made $162 Billion in Improper Payments in FY2024; Medicare and Medicaid Account for More Than Half",
-      "description": "GAO found the federal government made an estimated $162 billion in improper payments in FY2024, totaling nearly $2.8 trillion since 2003. Medicare ($54 billion) and Medicaid ($31 billion) together account for more than half of all federal improper payments. Data access failures \u2014 where data exists but agencies are not using it \u2014 account for roughly 75% of root-cause-attributable improper payments. GAO cited a long-unimplemented 2016 recommendation for CMS to seek prepayment claim review authority for Medicare.",
+      "description": "GAO found the federal government made an estimated $162 billion in improper payments in FY2024, totaling nearly $2.8 trillion since 2003. Medicare ($54 billion) and Medicaid ($31 billion) together account for more than half of all federal improper payments.",
       "amount": "$162B",
       "amount_numeric": 162000000000.0,
       "officials": [],
