@@ -3276,8 +3276,8 @@
       "agency": "CMS",
       "type": "Administrative Action",
       "title": "CMS Finds 2.8 Million Americans Potentially Enrolled in Duplicate Medicaid/ACA Plans",
-      "description": "CMS announced the identification of 2.8 million Americans potentially enrolled in duplicate Medicaid/CHIP plans or simultaneously in both Medicaid/CHIP and subsidized ACA Exchange coverage: 1.2 million/month enrolled in Medicaid/CHIP across two or more states and 1.6 million/month enrolled in both Medicaid/CHIP and subsidized Exchange plans. CMS estimated $14 billion in annual taxpayer savings from eliminating duplicate enrollment. CMS directed states to recheck eligibility and provided 30-day notice to affected individuals.",
-      "amount": "$14B/year savings",
+      "description": "CMS announced that its recent analysis of 2024 enrollment data revealed that 2.8 million Americans were either enrolled in Medicaid or CHIP in multiple states or simultaneously enrolled in both Medicaid/CHIP and a subsidized ACA exchange plan. CMS said the problem wastes about $14 billion annually and announced that it will work with states to reduce duplicate enrollment.",
+      "amount": "$14B",
       "amount_numeric": 14000000000,
       "officials": [
         "Robert F. Kennedy Jr.",
