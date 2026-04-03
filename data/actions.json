@@ -3274,9 +3274,9 @@
       "id": "cms-2025-07-duplicate-enrollment-28m",
       "date": "2025-07-17",
       "agency": "CMS",
-      "type": "Report",
+      "type": "Administrative Action",
       "title": "CMS Finds 2.8 Million Americans Potentially Enrolled in Duplicate Medicaid/ACA Plans",
-      "description": "CMS announced that its recent analysis of 2024 enrollment data revealed that 2.8 million Americans were either enrolled in Medicaid or CHIP in multiple states or simultaneously enrolled in both Medicaid/CHIP and a subsidized ACA exchange plan. CMS said the problem wastes about $14 billion annually and announced that it will work with states to reduce duplicate enrollment.",
+      "description": "CMS announced that its recent analysis of 2024 enrollment data revealed that 2.8 million Americans were either enrolled in Medicaid or CHIP in multiple states or simultaneously enrolled in both Medicaid/CHIP and a subsidized ACA exchange plan. CMS said the problem wastes about $14 billion annually. CMS announced it will partner with states to reduce duplicate enrollment through three initiatives: Individuals Enrolled in Two or More Medicaid Programs, Individuals Enrolled in Medicaid or CHIP + a Subsidized Federally-facilitated Exchange (FFE) Plan, and Individuals Enrolled in Medicaid or CHIP + a Subsidized State-based Exchange (SBE) Plan.",
       "amount": "$14B",
       "amount_numeric": 14000000000,
       "officials": [
