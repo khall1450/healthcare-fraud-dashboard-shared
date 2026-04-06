@@ -2372,7 +2372,7 @@
     },
     {
       "id": "congress-2025-12-house-oversight-mn-investigation-widened",
-      "date": "2025-12-22",
+      "date": "2026-01-23",
       "agency": "Congress",
       "type": "Investigation",
       "title": "House Oversight Widens Investigation into Minnesota Social Services and Medicaid Fraud",
@@ -2394,6 +2394,30 @@
       "state": "MN",
       "source_type": "official",
       "auto_fetched": false
+    },
+    {
+      "id": "congress-2025-12-02-house-oversight-mn-investigation-launch",
+      "date": "2025-12-02",
+      "agency": "Congress",
+      "type": "Investigation",
+      "title": "House Oversight Launches Investigation into Massive Fraud in Minnesota\u2019s Social Services System",
+      "description": "Chairman Comer launched a formal investigation into widespread fraud in Minnesota\u2019s social services programs under Governor Walz\u2019s watch, including efforts to cover it up and retaliation against whistleblowers. Comer sent letters to Governor Walz and Attorney General Ellison demanding documents, communications, and records, with a December 17 deadline to respond. Federal prosecutors estimated up to $9 billion was stolen from 14 Minnesota Medicaid programs, including more than $240 million from the federal child nutrition program through the Feeding Our Future scheme.",
+      "amount": "",
+      "amount_numeric": 0.0,
+      "officials": [],
+      "link": "https://oversight.house.gov/release/chairman-comer-launches-investigation-into-massive-fraud-in-minnesotas-social-services-system-on-governor-walzs-watch/",
+      "link_label": "House Oversight",
+      "social_posts": [],
+      "tags": [
+        "House Oversight Committee",
+        "Medicaid",
+        "Money Laundering",
+        "Organized Crime"
+      ],
+      "state": "MN",
+      "source_type": "official",
+      "auto_fetched": false,
+      "entities": []
     },
     {
       "id": "doj-2025-12-gary-cox-dmerx-sentenced",
