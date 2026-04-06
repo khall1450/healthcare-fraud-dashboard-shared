@@ -19,7 +19,7 @@
       "social_posts": [],
       "tags": [
         "Medicare",
-        "Hospice Fraud"
+        "Hospice"
       ],
       "state": "CA",
       "source_type": "news",
@@ -41,8 +41,8 @@
       "link_label": "RealClearInvestigations",
       "social_posts": [],
       "tags": [
-        "Home Health Fraud",
-        "Hospice Fraud",
+        "Home Health",
+        "Hospice",
         "Medicare"
       ],
       "state": "LA",
@@ -65,6 +65,7 @@
       "link_label": "WSJ Article",
       "social_posts": [],
       "tags": [
+        "Autism/ABA",
         "Behavioral Health",
         "Medicaid",
         "Overbilling",
@@ -92,7 +93,7 @@
       "link_label": "CBS News Investigation",
       "social_posts": [],
       "tags": [
-        "Hospice Fraud",
+        "Hospice",
         "Medicare",
         "Overbilling",
         "Program Integrity"
@@ -232,7 +233,7 @@
       "social_posts": [],
       "tags": [
         "False Claims",
-        "Home Health Fraud",
+        "Home Health",
         "Medicare",
         "NPI Fraud"
       ],
@@ -310,7 +311,7 @@
       "social_posts": [],
       "tags": [
         "False Claims",
-        "Home Health Fraud",
+        "Home Health",
         "Medicare",
         "Medicare Advantage",
         "Risk Adjustment"
@@ -396,7 +397,7 @@
       "social_posts": [],
       "tags": [
         "Childcare Fraud",
-        "Hospice Fraud",
+        "Hospice",
         "Medicaid",
         "Medicare"
       ],
@@ -506,7 +507,7 @@
       "link_label": "NY Post Investigation",
       "social_posts": [],
       "tags": [
-        "Home Health Fraud",
+        "Home Health",
         "Medicaid",
         "Organized Crime",
         "Program Integrity"
