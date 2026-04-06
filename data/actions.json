@@ -13,7 +13,7 @@
       "title": "Alabama Therapist Sentenced to 54 Months for Medicaid Fraud and Identity Theft",
       "description": "Hasan Jermel Pulliam, 54, an Anniston, Alabama child and family therapist, was sentenced to 54 months in federal prison and ordered to pay $718,967.20 in restitution to the Alabama Medicaid Agency. Pulliam enrolled as a Medicaid provider in 2018 and submitted fraudulent claims for counseling services never provided, using beneficiaries' identifying information without their consent. The fraudulent conduct continued through November 2023.",
       "amount": "$718K",
-      "amount_numeric": 718967.20,
+      "amount_numeric": 718967.2,
       "officials": [],
       "link": "https://www.justice.gov/usao-mdal/pr/former-medicaid-provider-sentenced-federal-prison-health-care-fraud-and-aggravated",
       "link_label": "DOJ Press Release",
@@ -1312,7 +1312,10 @@
       "state": "MN",
       "source_type": "official",
       "auto_fetched": false,
-      "entities": []
+      "entities": [],
+      "related_agencies": [
+        "HHS"
+      ]
     },
     {
       "id": "doj-2026-02-texas-dr-taba-compound-sentenced",
@@ -3060,7 +3063,10 @@
       "entities": [],
       "state": null,
       "source_type": "official",
-      "auto_fetched": false
+      "auto_fetched": false,
+      "related_agencies": [
+        "HHS"
+      ]
     },
     {
       "id": "hhs-oig-2025-09-skin-substitutes-10b",
