@@ -2976,11 +2976,7 @@
       "source_type": "official",
       "auto_fetched": false,
       "entities": [],
-      "related_agencies": [
-        "HHS-OIG",
-        "FDA",
-        "DEA"
-      ]
+      "related_agencies": []
     },
     {
       "id": "media-2025-09-16-kff-exactech-knee-implant-settlement",
