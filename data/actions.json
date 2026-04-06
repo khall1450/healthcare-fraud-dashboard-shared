@@ -2808,8 +2808,8 @@
       "date": "2025-11-17",
       "agency": "HHS-OIG",
       "type": "Audit",
-      "title": "HHS-OIG: CMS Put $11.2 Billion at Risk by Not Properly Closing Federal Contracts",
-      "description": "HHS-OIG Report A-04-24-02048 found that CMS failed to meet administrative closeout requirements for 50 contracts totaling $11.2 billion reviewed for the period October 2018\u2014September 2023. Twelve contracts worth $2.1 billion remained overdue for closeout at audit conclusion, putting those funds at risk of fraud, waste, and abuse. OIG recommended CMS complete administrative closeout for the 12 delinquent contracts and develop clear policies defining documentation requirements and roles for timely closure. CMS concurred with both recommendations.",
+      "title": "HHS-OIG: CMS Put $11.2 Billion at Risk of Fraud, Waste, and Abuse by Failing to Properly Close Contracts",
+      "description": "HHS-OIG found that CMS failed to properly close 50 selected contracts worth $11.2 billion that were eligible for closeout between 2018 and 2023, exposing the agency to fraud, waste, and abuse risk. At the end of the audit, 12 contracts totaling $2.1 billion were still overdue for closeout, and OIG urged CMS to complete the closeouts and strengthen contract closeout procedures. CMS concurred with OIG\u2019s recommendations and described actions it has taken and plans to take to implement them.",
       "amount": "$11.2B",
       "amount_numeric": 11200000000,
       "officials": [],
@@ -2817,7 +2817,6 @@
       "link_label": "HHS-OIG Audit Report",
       "social_posts": [],
       "tags": [
-        "Improper Payments",
         "Program Integrity"
       ],
       "state": null,
