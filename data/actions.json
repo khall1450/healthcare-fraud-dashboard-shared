@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "last_updated": "2026-03-31T15:56:14.205497",
+    "last_updated": "2026-04-07T08:20:29.237094",
     "version": "1.0",
-    "last_scraped": "2026-04-02T08:42:30.649425"
+    "last_scraped": "2026-04-07T08:20:29.237064"
   },
   "actions": [
     {
@@ -5253,6 +5253,96 @@
       "source_type": "official",
       "auto_fetched": true,
       "related_agencies": []
+    },
+    {
+      "id": "doj-2026-04-02-1007901506",
+      "date": "2026-04-02",
+      "agency": "DOJ",
+      "type": "Criminal Enforcement",
+      "title": "Dominican National Pleads Guilty to Illegal Reentry, Misuse of Social Security Number, and Benefits Fraud",
+      "description": "PROVIDENCE – A Dominican national illegally residing in the United States has pleaded guilty in federal court in Rhode Island for engaging in a years-long scheme in which he used stolen identities to fraudulently obtain Medicaid, Supplemental Nutrition Assistance Program (SNAP) and unemployment benefits, announced United States Attorney Charles C. Calenda. Jesus Matos Perez, 52, pleaded guilty today to illegal entry, false representation of a Social Security number, health care fraud, and wire fraud. He is scheduled to be sentenced on July 8, 2026.",
+      "amount": null,
+      "amount_numeric": 0,
+      "officials": [],
+      "link": "https://www.justice.gov/usao-ri/pr/dominican-national-pleads-guilty-illegal-reentry-misuse-social-security-number-and",
+      "link_label": "DOJ Press Release",
+      "social_posts": [],
+      "tags": [
+        "Medicaid",
+        "Conviction",
+        "Sentencing",
+        "Guilty Plea"
+      ],
+      "entities": [],
+      "state": "RI",
+      "source_type": "official",
+      "auto_fetched": true
+    },
+    {
+      "id": "doj-2026-04-02-1798136913",
+      "date": "2026-04-02",
+      "agency": "DOJ",
+      "type": "Civil Action",
+      "title": "Advanced Urology and Jitesh Patel will pay $14 million to settle False Claims Act case involving allegations of fraudulent billing and unnecessary medical procedures",
+      "description": "ATLANTA –Jitesh Patel, M.D., Advanced Urology, Inc., and affiliated companies (collectively “Advanced Urology”) will pay $14 million to settle allegations that they violated the False Claims Act and the Georgia False Medicaid Claims Act by billing federal healthcare programs, including Medicare and Medicaid, for a series of urological and diagnostic procedures that were not performed or were medically unnecessary. Read more on www.justice.gov Action Details Date: April 2, 2026 Agency: U.S. Attorney's Office, Northern District of Georgia Enforcement Types: Criminal and Civil Actions",
+      "amount": "$14 million",
+      "amount_numeric": 14000000.0,
+      "officials": [],
+      "link": "https://www.justice.gov/usao-ndga/pr/advanced-urology-and-jitesh-patel-will-pay-14-million-settle-false-claims-act-case",
+      "link_label": "DOJ Press Release",
+      "social_posts": [],
+      "tags": [
+        "Medicare",
+        "Medicaid",
+        "False Claims",
+        "Settlement",
+        "Billing Fraud"
+      ],
+      "entities": [],
+      "state": "GA",
+      "source_type": "official",
+      "auto_fetched": true
+    },
+    {
+      "id": "doj-2026-04-02-3852963637",
+      "date": "2026-04-02",
+      "agency": "DOJ",
+      "type": "Civil Action",
+      "title": "Trinity Hospital Agrees to Pay $1.7M to Resolve Alleged Stark Law Violations",
+      "description": "Thursday, April 2, 2026 Share Facebook X LinkedIn Email For Immediate Release Office of Public Affairs Trinity Hospital Holding Company (Trinity) has agreed to pay the United States $1.7 million to resolve allegations relating to improper financial relationships between Trinity and two referring physicians. Trinity operates a hospital located in Steubenville, Ohio. Trinity disclosed the arrangements at issue to the government following an independent investigation.",
+      "amount": "$1.7 million",
+      "amount_numeric": 1700000.0,
+      "officials": [],
+      "link": "https://www.justice.gov/opa/pr/trinity-hospital-agrees-pay-17m-resolve-alleged-stark-law-violations",
+      "link_label": "DOJ Press Release",
+      "social_posts": [],
+      "tags": [
+        "False Claims",
+        "Settlement"
+      ],
+      "entities": [],
+      "state": "CA",
+      "source_type": "official",
+      "auto_fetched": true
+    },
+    {
+      "id": "hhs-oig-2026-04-02-1540648137",
+      "date": "2026-04-02",
+      "agency": "HHS-OIG",
+      "type": "Audit",
+      "title": "Vibrent Health Claimed Unallowable Costs Under a National Institutes of Health Other Transaction Award",
+      "description": "Issued on 04/02/2026 | Posted on 04/03/2026 | Report number: A-04-24-02049 Report Materials Full Report (PDF, 3.2 MB) Report Highlights (PDF, 375.6 KB) Why OIG Did This Audit The National Institutes of Health is one of a small number of Federal agencies with authority to use other transactions (OTs), which is a special award instrument not generally subject to Federal laws and regulations that apply to traditional awards. Between 2016 and 2023, NIH awarded more than $5.3 billion in OTs.",
+      "amount": "$5.3 billion",
+      "amount_numeric": 5300000000.0,
+      "officials": [],
+      "link": "https://oig.hhs.gov/reports/all/2026/vibrent-health-claimed-unallowable-costs-under-a-national-institutes-of-health-other-transaction-award/",
+      "link_label": "HHS-OIG Press Release",
+      "social_posts": [],
+      "tags": [],
+      "entities": [],
+      "state": null,
+      "source_type": "official",
+      "auto_fetched": true
     }
   ]
 }
