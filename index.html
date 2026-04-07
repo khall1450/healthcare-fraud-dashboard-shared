@@ -458,6 +458,20 @@ let enforcementActions = [];
 let oversightActions = [];
 const ENFORCEMENT_TYPES = new Set(['Criminal Enforcement', 'Civil Action']);
 
+const ALLOWED_TAGS = new Set([
+  // Programs
+  'Medicare', 'Medicaid', 'Medicare Advantage', 'TRICARE', 'ACA', 'Medi-Cal', 'CHIP',
+  // Services / fraud types
+  'DME', 'DME Fraud', 'Hospice', 'Hospice Fraud', 'Home Health', 'Home Health Fraud',
+  'Pharmacy', 'Pharmacy Fraud', 'Genetic Testing', 'Telehealth', 'Nursing Home',
+  'Medical Devices', 'Opioids', 'Addiction Treatment', 'Behavioral Health',
+  'Wound Care', 'Adult Day Care', 'Autism/ABA', 'Hospital', 'Hospital Fraud',
+  'Unnecessary Procedures', 'Research Fraud', 'Prenatal Care', 'Skin Substitutes',
+  'Physical Therapy', 'Assisted Living', 'Ambulance', 'Elder Fraud',
+  'Lab Fraud', 'NPI Fraud', 'Housing Fraud', 'Workers Compensation',
+  'Pharmaceutical', 'Off-Label', 'Digital Health', '340B Program'
+]);
+
 const AGENCY_CLASS = { 'DOJ':'agency-DOJ','HHS':'agency-HHS','CMS':'agency-CMS','HHS-OIG':'agency-HHS-OIG','FDA':'agency-FDA','White House':'agency-White-House','Media':'agency-Media','Congress':'agency-Congress','GAO':'agency-GAO','State Agency':'agency-State-Agencies','Treasury':'agency-Treasury' };
 const AGENCY_TOOLTIPS = {
   'DOJ': 'Department of Justice \u2014 Prosecutes health care fraud through criminal and civil enforcement, including the Health Care Fraud Strike Force.',
@@ -613,14 +627,12 @@ function appendCards(count, view) {
       el.querySelector('span').textContent = action.state.includes(',') ? action.state : (STATE_NAMES[action.state] || action.state);
     }
     const tagsEl = col.querySelector('.card-tags');
-    const entities = new Set(action.entities || []);
-    const PROGRAMS = new Set(['Medicare','Medicaid','Medicare Advantage','ACA','ACA Fraud','TRICARE','Medi-Cal']);
-    const allTags = (action.entities || []).concat(action.tags || []).concat(action.officials || []).sort((a,b) => a.localeCompare(b));
-    allTags.forEach(tag => {
+    const PROGRAMS = new Set(['Medicare','Medicaid','Medicare Advantage','ACA','ACA Fraud','TRICARE','Medi-Cal','CHIP']);
+    const filteredTags = (action.tags || []).filter(t => ALLOWED_TAGS.has(t)).sort((a,b) => a.localeCompare(b));
+    filteredTags.forEach(tag => {
       const pill = document.createElement('span');
       pill.className = 'tag-pill';
-      if (entities.has(tag)) pill.classList.add('entity-pill');
-      else if (PROGRAMS.has(tag)) pill.classList.add('program-pill');
+      if (PROGRAMS.has(tag)) pill.classList.add('program-pill');
       if (activeTag && tag === activeTag) pill.classList.add('active-tag');
       pill.textContent = tag;
       pill.addEventListener('click', () => toggleTagFilter(tag));
@@ -1040,14 +1052,12 @@ function renderStoryCards(stories) {
       el.querySelector('span').textContent = action.state.includes(',') ? action.state : (STATE_NAMES[action.state] || action.state);
     }
     const tagsEl = col.querySelector('.card-tags');
-    const entities = new Set(action.entities || []);
-    const PROGRAMS = new Set(['Medicare','Medicaid','Medicare Advantage','ACA','ACA Fraud','TRICARE','Medi-Cal']);
-    const allTags = (action.entities || []).concat(action.tags || []).concat(action.officials || []).sort((a,b) => a.localeCompare(b));
-    allTags.forEach(tag => {
+    const PROGRAMS_M = new Set(['Medicare','Medicaid','Medicare Advantage','ACA','ACA Fraud','TRICARE','Medi-Cal','CHIP']);
+    const filteredTagsM = (action.tags || []).filter(t => ALLOWED_TAGS.has(t)).sort((a,b) => a.localeCompare(b));
+    filteredTagsM.forEach(tag => {
       const pill = document.createElement('span');
       pill.className = 'tag-pill';
-      if (entities.has(tag)) pill.classList.add('entity-pill');
-      else if (PROGRAMS.has(tag)) pill.classList.add('program-pill');
+      if (PROGRAMS_M.has(tag)) pill.classList.add('program-pill');
       pill.textContent = tag;
       pill.addEventListener('click', () => toggleTagFilter(tag));
       tagsEl.appendChild(pill);
