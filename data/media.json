@@ -1,9 +1,51 @@
 {
   "metadata": {
-    "last_updated": "2026-04-03T11:08:41.322889",
+    "last_updated": "2026-04-13T10:20:57.103148",
     "version": "1.0"
   },
   "stories": [
+    {
+      "id": "media-2026-04-13-1439589363",
+      "date": "2026-04-13",
+      "agency": "Media",
+      "type": "Investigative Report",
+      "title": "Op-ed: Administrative fragility is costing healthcare more than we think",
+      "description": "The industry has already proven automation works. The question now is whether organizations are prepared to operationalize it at scale, writes Zelis' Yusuf Qasim.",
+      "amount": "",
+      "amount_numeric": 0,
+      "officials": [],
+      "link": "https://www.fiercehealthcare.com/health-tech/op-ed-administrative-fragility-costing-healthcare-more-we-think",
+      "link_label": "Fierce Healthcare Report",
+      "social_posts": [],
+      "tags": [],
+      "state": "",
+      "source_type": "news",
+      "auto_fetched": true,
+      "entities": [],
+      "related_agencies": ""
+    },
+    {
+      "id": "media-2026-04-10-3085601230",
+      "date": "2026-04-10",
+      "agency": "Media",
+      "type": "Investigative Report",
+      "title": "Trump administration admits a glaring error in its accusations about New York health care fraud",
+      "description": "The Trump administration this week acknowledged it made a significant error in figures it used to help justify a fraud probe into New York’s Medicaid program",
+      "amount": "",
+      "amount_numeric": 0,
+      "officials": [],
+      "link": "https://www.statnews.com/2026/04/10/new-york-health-care-fraud-accusations-cms-admits-mistake/?utm_campaign=rss",
+      "link_label": "STAT News Report",
+      "social_posts": [],
+      "tags": [
+        "Medicaid"
+      ],
+      "state": "NY",
+      "source_type": "news",
+      "auto_fetched": true,
+      "entities": [],
+      "related_agencies": ""
+    },
     {
       "id": "cbs-2026-04-02-la-hospice-investigation",
       "date": "2026-04-02",
