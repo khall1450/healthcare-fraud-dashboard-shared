@@ -1,9 +1,49 @@
 {
   "metadata": {
-    "last_updated": "2026-04-03T11:08:41.322889",
+    "last_updated": "2026-04-15T10:01:17.182427",
     "version": "1.0"
   },
   "stories": [
+    {
+      "id": "media-2026-04-15-1439589363",
+      "date": "2026-04-15",
+      "agency": "Media",
+      "type": "Investigative Report",
+      "title": "Op-ed: Administrative fragility is costing healthcare more than we think",
+      "description": "The industry has already proven automation works. The question now is whether organizations are prepared to operationalize it at scale, writes Zelis' Yusuf Qasim.",
+      "amount": "",
+      "amount_numeric": 0,
+      "officials": [],
+      "link": "https://www.fiercehealthcare.com/health-tech/op-ed-administrative-fragility-costing-healthcare-more-we-think",
+      "link_label": "Fierce Healthcare Report",
+      "social_posts": [],
+      "tags": [],
+      "state": "",
+      "source_type": "news",
+      "auto_fetched": true,
+      "entities": [],
+      "related_agencies": ""
+    },
+    {
+      "id": "media-2026-04-14-705565771",
+      "date": "2026-04-14",
+      "agency": "Media",
+      "type": "Investigative Report",
+      "title": "Florida doctor indicted after allegedly removing patient's liver instead of spleen",
+      "description": "Dr. Thomas Shaknovsky, 44, was arrested Monday after a two-year investigation by local, state and medical authorities.",
+      "amount": "",
+      "amount_numeric": 0,
+      "officials": [],
+      "link": "https://www.cbsnews.com/news/doctor-indicted-liver-spleen-fatal-surgery-thomas-shaknovsky/",
+      "link_label": "CBS News Report",
+      "social_posts": [],
+      "tags": [],
+      "state": "FL",
+      "source_type": "news",
+      "auto_fetched": true,
+      "entities": [],
+      "related_agencies": ""
+    },
     {
       "id": "cbs-2026-04-02-la-hospice-investigation",
       "date": "2026-04-02",
