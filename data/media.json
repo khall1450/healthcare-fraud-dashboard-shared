@@ -1,9 +1,73 @@
 {
   "metadata": {
-    "last_updated": "2026-04-03T11:08:41.322889",
+    "last_updated": "2026-04-26T09:34:53.613216",
     "version": "1.0"
   },
   "stories": [
+    {
+      "id": "media-2026-04-26-4116697136",
+      "date": "2026-04-26",
+      "agency": "Media",
+      "type": "Investigative Report",
+      "title": "FTC files suit over telemarketing scheme selling fake PPO insurance",
+      "description": "The Federal Trade Commission has filed suit to intervene in a scheme in which it says fraudulent telemarketers targeted individuals seeking insurance coverage.",
+      "amount": "",
+      "amount_numeric": 0,
+      "officials": [],
+      "link": "https://www.fiercehealthcare.com/regulatory/ftc-files-suit-over-telemarketing-scheme-selling-fake-ppo-insurance",
+      "link_label": "Fierce Healthcare Report",
+      "social_posts": [],
+      "tags": [],
+      "state": "",
+      "source_type": "news",
+      "auto_fetched": true,
+      "entities": [],
+      "related_agencies": ""
+    },
+    {
+      "id": "media-2026-04-23-387845935",
+      "date": "2026-04-23",
+      "agency": "Media",
+      "type": "Investigative Report",
+      "title": "“A Punch in the Gut”: After Years of Waiting, Many Opioid Victims Will Be Shut Out of Purdue Settlement",
+      "description": "The post “A Punch in the Gut”: After Years of Waiting, Many Opioid Victims Will Be Shut Out of Purdue Settlement appeared first on ProPublica .",
+      "amount": "",
+      "amount_numeric": 0,
+      "officials": [],
+      "link": "https://www.propublica.org/article/purdue-settlement-leaves-opioid-victims-behind",
+      "link_label": "ProPublica Report",
+      "social_posts": [],
+      "tags": [
+        "Opioids"
+      ],
+      "state": "",
+      "source_type": "news",
+      "auto_fetched": true,
+      "entities": [],
+      "related_agencies": ""
+    },
+    {
+      "id": "media-2026-04-23-299375174",
+      "date": "2026-04-23",
+      "agency": "Media",
+      "type": "Investigative Report",
+      "title": "Are You Waiting for Opioid Settlement Money From Purdue, Mallinckrodt or Endo? Get in Touch.",
+      "description": "The post Are You Waiting for Opioid Settlement Money From Purdue, Mallinckrodt or Endo? Get in Touch. appeared first on ProPublica .",
+      "amount": "",
+      "amount_numeric": 0,
+      "officials": [],
+      "link": "https://www.propublica.org/getinvolved/purdue-endo-mallinckrodt-opioid-settlement-callout",
+      "link_label": "ProPublica Report",
+      "social_posts": [],
+      "tags": [
+        "Opioids"
+      ],
+      "state": "",
+      "source_type": "news",
+      "auto_fetched": true,
+      "entities": [],
+      "related_agencies": ""
+    },
     {
       "id": "cbs-2026-04-02-la-hospice-investigation",
       "date": "2026-04-02",
