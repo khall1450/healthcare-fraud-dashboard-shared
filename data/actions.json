@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "last_updated": "2026-03-31T15:56:14.205497",
+    "last_updated": "2026-04-26T08:37:32.158199",
     "version": "1.0",
-    "last_scraped": "2026-04-02T08:42:30.649425"
+    "last_scraped": "2026-04-26T08:37:32.158190"
   },
   "actions": [
     {
@@ -5253,6 +5253,29 @@
       "source_type": "official",
       "auto_fetched": true,
       "related_agencies": []
+    },
+    {
+      "id": "gao-2026-04-21-549269149",
+      "date": "2026-04-21",
+      "agency": "GAO",
+      "type": "Congressional Hearing",
+      "title": "Medicare: CMS’s Use of Data Analytics to Identify and Prevent Fraud",
+      "description": "What GAO Found GAO has designated Medicare a high-risk program due, in part, to its complexity and potential for fraud. Fraud schemes in traditional Medicare often focus on certain services, such as durable medical equipment. Fraudsters may use stolen or inappropriately obtained Medicare beneficiary identifiers to submit fraudulent claims for unneeded or never provided services. The Centers for Medicare & Medicaid Services (CMS), which oversees Medicare, uses data analytics on claims in traditional Medicare to identify anomalous patterns indicative of emerging fraud schemes and potentially fra...",
+      "amount": "$4 billion",
+      "amount_numeric": 4000000000.0,
+      "officials": [],
+      "link": "https://www.gao.gov/products/gao-26-107799",
+      "link_label": "GAO Press Release",
+      "social_posts": [],
+      "tags": [
+        "Medicare",
+        "Medicaid",
+        "DME"
+      ],
+      "entities": [],
+      "state": null,
+      "source_type": "official",
+      "auto_fetched": true
     }
   ]
 }
